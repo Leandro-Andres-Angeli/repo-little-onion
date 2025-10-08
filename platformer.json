@@ -2435,6 +2435,102 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Score.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Score.png\",\"extension\":\".png\"}",
+        "name": "Score.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Llave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Llave.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Llave.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Llave.png\"}",
+        "name": "Llave",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Puerta.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Puerta.png\",\"extension\":\".png\"}",
+        "name": "Puerta.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Puerta2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Puerta2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Puerta.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Puerta.png\"}",
+        "name": "Puerta",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Puerta2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Puerta2.png\"}",
+        "name": "Puerta2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Llave2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Llave2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Llave2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Llave2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Llave3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Llave3.png\"}",
+        "name": "Llave3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Llave-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Llave-.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "image 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image 13.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7605,6 +7701,91 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "tile_0134",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Abierta",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Puerta",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 0
+                      },
+                      {
+                        "x": 82,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Puerta2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13115,6 +13296,148 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "InterfazScore",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Score",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Score.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TextoScore",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "TextoScore",
+        "opacity": 255,
+        "scale": 0.3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "Unnamed.fnt",
+        "textureAtlasResourceName": "Unnamed.png",
+        "align": "left",
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Llave",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Llave",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Llave3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 18
+                      },
+                      {
+                        "x": 0,
+                        "y": 18
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13140,6 +13463,15 @@
           },
           {
             "objectName": "CurrentHealth"
+          },
+          {
+            "objectName": "TextoScore"
+          },
+          {
+            "objectName": "InterfazScore"
+          },
+          {
+            "objectName": "Llave"
           }
         ]
       },
@@ -13553,6 +13885,16 @@
       "name": "CurrentLives",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "LLave",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -13576,7 +13918,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4057518905943893,
+        "zoomFactor": 0.08825105444132832,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -15211,6 +15553,23 @@
           "x": 3361,
           "y": -1439,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Llave",
+          "persistentUuid": "13ad9922-ac04-413a-91cd-629309d59a16",
+          "width": 64,
+          "x": 3231,
+          "y": -807,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -33980,10 +34339,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -38182,6 +38541,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -39215,11 +39575,39 @@
                   "parameters": []
                 },
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Score",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "TextoScore",
+                            "Text",
+                            "=",
+                            "\"Score:\" + Score"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
                   "colorB": 255,
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Coin",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -39249,6 +39637,16 @@
                             "GoldAnimation",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "10"
+                          ]
                         }
                       ]
                     }
@@ -39260,7 +39658,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Emerald",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -39301,6 +39698,16 @@
                             "GreenCoinEmitter",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "15"
+                          ]
                         }
                       ]
                     }
@@ -39312,7 +39719,6 @@
                   "colorG": 6,
                   "colorR": 199,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUpItems",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -39431,6 +39837,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -39740,6 +40147,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -41012,6 +41420,138 @@
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Agarra la llave",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Llave",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "LLave",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "LLave",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Door",
+                            "Animation",
+                            "=",
+                            "\"Abierta\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Door",
+                                "",
+                                "",
+                                "yes"
+                              ]
+                            }
+                          ],
+                          "actions": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "LLave",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Llave",
+                            "=",
+                            "Player.CenterX()-2",
+                            "=",
+                            "Player.CenterY()+30"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ],
               "parameters": []
@@ -42211,6 +42751,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Block Enenmy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -42539,6 +43080,7 @@
                   "colorG": 180,
                   "colorR": 241,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Enemies Triggers",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -42671,6 +43213,7 @@
                   "colorG": 180,
                   "colorR": 241,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Enemies Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -42844,6 +43387,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -43334,7 +43878,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Handle Change Level",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -43348,7 +43891,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "PlayerIcon",
                         "Door",
                         "",
                         "",
@@ -75805,6 +76348,57 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "InterfazScore",
+          "persistentUuid": "6c806564-5b59-48b5-919e-a3d8d2b08894",
+          "width": 58,
+          "x": 517,
+          "y": 19,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 24.999999999999996,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextoScore",
+          "persistentUuid": "91058a5b-ed8c-4350-aed9-c8164f0bac50",
+          "width": 250,
+          "x": 588,
+          "y": 40,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 29.812499999999986,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Llave",
+          "persistentUuid": "e45d0b21-a3e0-4428-8d16-87370efafdea",
+          "width": 53,
+          "x": 1156,
+          "y": 39,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -75817,7 +76411,7 @@
         "gridColor": 16776285,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7876290101673757,
+        "zoomFactor": 0.6455105703311481,
         "windowMask": false
       }
     }
