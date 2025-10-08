@@ -36205,7 +36205,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -36493,7 +36492,7 @@
                         "HitBoxPlayer",
                         "Resizable",
                         "=",
-                        "85\n"
+                        "Player.Width()\n"
                       ]
                     },
                     {
