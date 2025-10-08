@@ -2377,6 +2377,64 @@
         "name": "menu_assets\\confeti.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_saltando1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_saltando1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_saltando2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_saltando2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_saltando3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_saltando3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_saltando4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_saltando4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_saltando31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_saltando31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_saltando32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_saltando32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/final_juego.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu_assets\\final_juego.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -33653,6 +33711,1486 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "MenuFinalJuego",
+      "name": "MenuFinalJuego",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5290357402156888,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 786,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fondo",
+          "persistentUuid": "c581265d-7430-4c2f-b327-6fe08dc740d1",
+          "width": 2769,
+          "x": -726,
+          "y": -15,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 258,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ninja",
+          "persistentUuid": "98222201-478e-4e7f-9148-00106c1fb721",
+          "width": 249,
+          "x": 519,
+          "y": 288,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Nubes",
+          "persistentUuid": "756cd375-386c-4fd5-aa79-923ac31f741a",
+          "width": 2931,
+          "x": -823,
+          "y": 67,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2114,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mundo",
+          "persistentUuid": "a61f30da-53c5-4792-98e3-94e7201bfbb4",
+          "width": 2114,
+          "x": -414,
+          "y": 155,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sound",
+          "persistentUuid": "ffdbaf3a-5924-4670-bccd-64172db1678c",
+          "width": 256,
+          "x": 928,
+          "y": 384,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "M",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Iniciar",
+          "persistentUuid": "fe384825-d068-443f-a59f-d13de0de19e4",
+          "width": 0,
+          "x": 928,
+          "y": 544,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoCentro",
+          "opacity": 0,
+          "persistentUuid": "47b52619-7423-46f3-bb9b-e888b10c300a",
+          "width": 109,
+          "x": 640,
+          "y": 383,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shadow",
+          "opacity": 128,
+          "persistentUuid": "a6e16897-d7a8-4ff2-bea1-e970c3ae7bed",
+          "width": 265,
+          "x": 503,
+          "y": 448,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score",
+          "persistentUuid": "9cf7f90e-9ee9-4dc3-acb6-8f46ba582f96",
+          "width": 0,
+          "x": 492,
+          "y": 580,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ganaste",
+          "persistentUuid": "49eaa8db-3b3a-48ef-90dd-837a6d7657dc",
+          "width": 0,
+          "x": 96,
+          "y": 96,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PixiDust",
+          "persistentUuid": "9b96efcd-1aaf-4124-bef1-039fa63a6597",
+          "width": 0,
+          "x": 64,
+          "y": 160,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PixiDust",
+          "persistentUuid": "5596f354-62be-41b1-8f68-2bed671dac87",
+          "width": 0,
+          "x": 1248,
+          "y": 160,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PixiDust",
+          "persistentUuid": "2d330676-0ee7-4660-8d36-df083cc71c25",
+          "width": 0,
+          "x": 640,
+          "y": 32,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Ninja",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PosicionInicio",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TiempoSalto",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_saltando1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 10
+                          },
+                          {
+                            "x": 89,
+                            "y": 117
+                          },
+                          {
+                            "x": 11,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Titulo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\Menu_Little Onion Adventures.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 113,
+                        "y": 71
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 223,
+                            "y": 0
+                          },
+                          {
+                            "x": 223,
+                            "y": 139
+                          },
+                          {
+                            "x": 3,
+                            "y": 139
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 900,
+          "name": "Fondo",
+          "texture": "menu_assets\\Menu_cielo.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 900,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 1000,
+          "name": "Nubes",
+          "texture": "menu_assets\\Menu_nubes.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1000,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 0.5,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Mundo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\Menu_cesped.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 66,
+                            "y": 51
+                          },
+                          {
+                            "x": 973,
+                            "y": 51
+                          },
+                          {
+                            "x": 973,
+                            "y": 973
+                          },
+                          {
+                            "x": 66,
+                            "y": 973
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Iniciar",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "⟳"
+          }
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Sound",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [
+            {
+              "name": "Musica",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "🎵"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PuntoCentro",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Shadow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\Menu_ninja_shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 67,
+                            "y": 57
+                          },
+                          {
+                            "x": 326,
+                            "y": 57
+                          },
+                          {
+                            "x": 326,
+                            "y": 159
+                          },
+                          {
+                            "x": 67,
+                            "y": 159
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "SCORE : 9999",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 76,
+            "g": 194,
+            "r": 230
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "128;54;120",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "SCORE : 9999",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "230;194;76"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DEBUG",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Ganaste",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "MISION COMPLETADA!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 76,
+            "g": 194,
+            "r": 230
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "128;54;120",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "MISION COMPLETADA!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
+            "lineHeight": 0,
+            "color": "230;194;76"
+          }
+        },
+        {
+          "additive": false,
+          "assetStoreId": "bdd101ca0543ee37a77e88537b1674063c53207bf6ae9fdbf9de326128d03848",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 50,
+          "emitterForceMin": 50,
+          "flow": 10,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 50,
+          "name": "PixiDust",
+          "particleAlpha1": 255,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 2,
+          "particleAngle2": 2,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 35,
+          "particleBlue2": 28,
+          "particleColor1": "245;166;35",
+          "particleColor2": "248;231;28",
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 166,
+          "particleGreen2": 231,
+          "particleLifeTimeMax": 0.800000011920929,
+          "particleLifeTimeMin": 0.20000000298023224,
+          "particleRed1": 245,
+          "particleRed2": 248,
+          "particleSize1": 50,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 200,
+          "rendererParam2": 200,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "menu_assets\\confeti.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 10,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Ninja"
+          },
+          {
+            "objectName": "DEBUG"
+          },
+          {
+            "objectName": "Nubes"
+          },
+          {
+            "objectName": "Shadow"
+          },
+          {
+            "objectName": "Fondo"
+          },
+          {
+            "objectName": "Mundo"
+          },
+          {
+            "objectName": "PixiDust"
+          },
+          {
+            "objectName": "Titulo"
+          },
+          {
+            "objectName": "Iniciar"
+          },
+          {
+            "objectName": "Sound"
+          },
+          {
+            "objectName": "Score"
+          },
+          {
+            "objectName": "Ganaste"
+          },
+          {
+            "objectName": "PuntoCentro"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Titulo",
+                "Scale",
+                "=",
+                " 2 + sin(TimeFromStart() * 2) * 0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "Nubes",
+                "+",
+                "10*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Mundo",
+                "+1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "PuntoCentro",
+                "",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DEBUG",
+                "Text",
+                "=",
+                "Ninja.TiempoSalto"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja",
+                "TiempoSalto",
+                "=",
+                "Ninja.Animation::Duration()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Ninja",
+                "=",
+                "Ninja.Y()-sin(TimeFromStart()/Ninja.TiempoSalto*3.14159)*5"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Ninja",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Ninja",
+                "PosicionInicio",
+                "=",
+                "Ninja.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Iniciar",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Sound",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Sound",
+                "Musica",
+                "Toggle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Sound",
+                "Musica",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+              },
+              "parameters": [
+                "Sound",
+                "=",
+                "\"🎵❌\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Sound",
+                "Musica",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "menu_assets\\final_juego.mp3",
+                "1",
+                "yes",
+                "50",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+              },
+              "parameters": [
+                "Sound",
+                "=",
+                "\"🎵\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "SmoothPlatformerCamera",
+          "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "MenuResultado",
       "name": "MenuResultado",
       "r": 209,
@@ -33670,7 +35208,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5290357402156892,
+        "zoomFactor": 0.44819780454104013,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33711,7 +35249,7 @@
           "initialVariables": []
         },
         {
-          "angle": 342,
+          "angle": 313,
           "customSize": true,
           "depth": 1,
           "height": 2114,
@@ -33720,8 +35258,8 @@
           "name": "Mundo",
           "persistentUuid": "a61f30da-53c5-4792-98e3-94e7201bfbb4",
           "width": 2114,
-          "x": -416,
-          "y": 320,
+          "x": -1045,
+          "y": 51,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -33795,8 +35333,8 @@
           "opacity": 128,
           "persistentUuid": "a6e16897-d7a8-4ff2-bea1-e970c3ae7bed",
           "width": 265,
-          "x": 512,
-          "y": 544,
+          "x": 55,
+          "y": 352,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -33843,7 +35381,7 @@
           "name": "Nivel",
           "persistentUuid": "4313899b-4721-4ec3-9303-9ad45a76beb3",
           "width": 0,
-          "x": 380,
+          "x": 559,
           "y": 192,
           "zOrder": 20,
           "numberProperties": [],
@@ -33860,8 +35398,8 @@
           "name": "NinjaBailando",
           "persistentUuid": "c3b5955d-e0ff-493b-bb59-f50e2f380c83",
           "width": 288,
-          "x": 512,
-          "y": 288,
+          "x": 64,
+          "y": 96,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -34293,9 +35831,24 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
-          "string": "Nivel Completado",
+          "string": "NIVEL COMPLETADO",
           "font": "",
           "textAlignment": "center",
           "characterSize": 60,
@@ -34318,7 +35871,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Nivel Completado",
+            "text": "NIVEL COMPLETADO",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -34749,7 +36302,7 @@
                 "Nivel",
                 "Text",
                 "=",
-                "\"Nivel \" + ToString(CurrentLevel+1) + \" Completado\""
+                "\"NIVEL \" + ToString(CurrentLevel+1) + \" COMPLETADO\""
               ]
             },
             {
