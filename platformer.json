@@ -2281,14 +2281,6 @@
         "name": "Run",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12969,67 +12961,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PlayerInitialPosition",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 7
-                      },
-                      {
-                        "x": 28,
-                        "y": 7
-                      },
-                      {
-                        "x": 28,
-                        "y": 32
-                      },
-                      {
-                        "x": 12,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13061,9 +12992,6 @@
       {
         "folderName": "GameObjects",
         "children": [
-          {
-            "objectName": "PlayerInitialPosition"
-          },
           {
             "objectName": "Sign"
           },
@@ -13494,7 +13422,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5468750000000095,
+        "zoomFactor": 0.4057518905943893,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -15129,23 +15057,6 @@
           "x": 3361,
           "y": -1439,
           "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PlayerInitialPosition",
-          "persistentUuid": "f5572bc9-d8e9-4923-bec2-0e667e9c16fd",
-          "width": 192,
-          "x": 96,
-          "y": 192,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17947,7 +17858,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.34375202416124007,
+        "zoomFactor": 0.30104611971825335,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -17984,8 +17895,8 @@
           "name": "Player",
           "persistentUuid": "75d52e9f-b3e1-47f4-b2b9-422f21d7f00d",
           "width": 0,
-          "x": -286,
-          "y": 515,
+          "x": 9600,
+          "y": -1920,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -20501,23 +20412,6 @@
               "value": false
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "PlayerInitialPosition",
-          "persistentUuid": "482db195-1fb6-4d3a-9ea3-6111e1d047f1",
-          "width": 192,
-          "x": -384,
-          "y": 480,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -34999,7 +34893,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -35287,7 +35180,7 @@
                         "HitBoxPlayer",
                         "Resizable",
                         "=",
-                        "85\n"
+                        "Player.Width()\n"
                       ]
                     },
                     {
@@ -36751,6 +36644,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Getting Hit",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -37203,53 +37097,11 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Take Harm Logic",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "CurrentLives",
-                            "<=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Scene"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Menu\"",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "CurrentLives",
-                            "=",
-                            "3"
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -37393,18 +37245,6 @@
                                 "Text",
                                 "=",
                                 "\"x\"+CurrentLives"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MettreXY"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "PlayerInitialPosition.X()",
-                                "=",
-                                "PlayerInitialPosition.Y()"
                               ]
                             }
                           ]
@@ -72684,7 +72524,7 @@
         "gridColor": 16776285,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7619362677197603,
+        "zoomFactor": 0.7876290101673757,
         "windowMask": false
       }
     }
