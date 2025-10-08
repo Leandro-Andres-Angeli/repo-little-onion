@@ -18070,7 +18070,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.30104611971825335,
+        "zoomFactor": 0.11894533708001406,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -18107,8 +18107,8 @@
           "name": "Player",
           "persistentUuid": "75d52e9f-b3e1-47f4-b2b9-422f21d7f00d",
           "width": 0,
-          "x": 9600,
-          "y": -1920,
+          "x": -190,
+          "y": 419,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -39745,7 +39745,7 @@
                         "HitBoxPlayer",
                         "Resizable",
                         "=",
-                        "85\n"
+                        "Player.Width()"
                       ]
                     },
                     {
