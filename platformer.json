@@ -2377,6 +2377,22 @@
         "name": "menu_assets\\confeti.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Score.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Unnamed.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Unnamed.png2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13057,6 +13073,86 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Interfaz_Score",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Score.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TextScore",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "TextoScore",
+        "opacity": 255,
+        "scale": 0.3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "Unnamed.fnt",
+        "textureAtlasResourceName": "Unnamed.png",
+        "align": "left",
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13082,6 +13178,12 @@
           },
           {
             "objectName": "CurrentHealth"
+          },
+          {
+            "objectName": "TextScore"
+          },
+          {
+            "objectName": "Interfaz_Score"
           }
         ]
       },
@@ -13495,6 +13597,11 @@
       "name": "CurrentLives",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "Score",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -13518,7 +13625,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4057518905943893,
+        "zoomFactor": 0.1550857455159322,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -36629,6 +36736,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -37666,7 +37774,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Coin",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -37696,6 +37803,16 @@
                             "GoldAnimation",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "1"
+                          ]
                         }
                       ]
                     }
@@ -37707,7 +37824,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Emerald",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -37748,6 +37864,16 @@
                             "GreenCoinEmitter",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "1"
+                          ]
                         }
                       ]
                     }
@@ -37759,7 +37885,6 @@
                   "colorG": 6,
                   "colorR": 199,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUpItems",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -39459,6 +39584,35 @@
                     }
                   ],
                   "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Score",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextScore",
+                        "Text",
+                        "=",
+                        "\"Score: \" + Score"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -74252,6 +74406,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Interfaz_Score",
+          "persistentUuid": "0051cf8f-e151-4e96-9783-23421adea222",
+          "width": 32,
+          "x": 514,
+          "y": 32,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "UI",
+          "name": "TextScore",
+          "persistentUuid": "f259c88b-06d5-47db-834d-b2e29d304468",
+          "width": 288,
+          "x": 556,
+          "y": 39,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -74264,7 +74451,7 @@
         "gridColor": 16776285,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7876290101673757,
+        "zoomFactor": 0.6455105703311483,
         "windowMask": false
       }
     }
