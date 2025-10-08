@@ -1,0 +1,37 @@
+# ==============================
+# GDEVELOP IGNORE RULES
+# ==============================
+
+# Archivos de respaldo y autoguardado
+*.autosave
+*.backup
+
+# Archivos temporales del editor
+*.tmp
+*.temp
+
+# Archivos de caché o preview
+*.json.lock
+*.gdcache
+*.gdtmp
+
+# Carpetas generadas por exportaciones
+export/
+dist/
+build/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local del editor o entorno
+.vscode/
+.idea/
+*.log
+
+# Node / npm (por si el proyecto usa scripts)
+node_modules/
+
+# ==============================
+# FIN GDEVELOP IGNORE RULES
+# ==============================
