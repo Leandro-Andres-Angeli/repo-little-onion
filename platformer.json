@@ -2333,6 +2333,50 @@
         "name": "menu_assets\\onion_game_over.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_bailando_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_bailando_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/onion_bailando_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\onion_bailando_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Point.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/e75f02ffb5796a124fe04ea8594f63e031a42cfe6d46e697d8f05bdbb0673b7e_Point.png",
+          "name": "Point.png"
+        }
+      },
+      {
+        "file": "menu_assets/Smoke &amp; Fire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\Smoke &amp; Fire.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/confeti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\confeti.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -23062,7 +23106,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.624453782660018,
+        "zoomFactor": 0.43357743047025077,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -32628,7 +32672,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.39251611754882576,
+        "zoomFactor": 0.2725359896772954,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33626,7 +33670,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5653158055126366,
+        "zoomFactor": 0.5290357402156892,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33651,22 +33695,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ninja",
-          "persistentUuid": "98222201-478e-4e7f-9148-00106c1fb721",
-          "width": 0,
-          "x": 330,
-          "y": 192,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 183,
@@ -33683,7 +33711,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 342,
           "customSize": true,
           "depth": 1,
           "height": 2114,
@@ -33768,7 +33796,7 @@
           "persistentUuid": "a6e16897-d7a8-4ff2-bea1-e970c3ae7bed",
           "width": 265,
           "x": 512,
-          "y": 576,
+          "y": 544,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -33816,74 +33844,31 @@
           "persistentUuid": "4313899b-4721-4ec3-9303-9ad45a76beb3",
           "width": 0,
           "x": 380,
-          "y": 141,
+          "y": 192,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NinjaBailando",
+          "persistentUuid": "c3b5955d-e0ff-493b-bb59-f50e2f380c83",
+          "width": 288,
+          "x": 512,
+          "y": 288,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Ninja",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "menu_assets\\Menu_ninja_onion.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 188,
-                            "y": 76
-                          },
-                          {
-                            "x": 389,
-                            "y": 76
-                          },
-                          {
-                            "x": 389,
-                            "y": 387
-                          },
-                          {
-                            "x": 188,
-                            "y": 387
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -34341,14 +34326,306 @@
             "lineHeight": 0,
             "color": "230;194;76"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NinjaBailando",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Flip",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 5
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 0.5,
+                "blur": 2,
+                "distance": 10,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 100
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Bailando",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_bailando_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 150
+                          },
+                          {
+                            "x": 11,
+                            "y": 150
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_bailando_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 150
+                          },
+                          {
+                            "x": 11,
+                            "y": 150
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_bailando_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 150
+                          },
+                          {
+                            "x": 11,
+                            "y": 150
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\onion_bailando_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 7
+                          },
+                          {
+                            "x": 99,
+                            "y": 150
+                          },
+                          {
+                            "x": 11,
+                            "y": 150
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Debug",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "additive": false,
+          "assetStoreId": "bdd101ca0543ee37a77e88537b1674063c53207bf6ae9fdbf9de326128d03848",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 50,
+          "emitterForceMin": 50,
+          "flow": 10,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 50,
+          "name": "PixiDust",
+          "particleAlpha1": 255,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 2,
+          "particleAngle2": 2,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 35,
+          "particleBlue2": 28,
+          "particleColor1": "245;166;35",
+          "particleColor2": "248;231;28",
+          "particleGravityX": 0,
+          "particleGravityY": 10,
+          "particleGreen1": 166,
+          "particleGreen2": 231,
+          "particleLifeTimeMax": 0.800000011920929,
+          "particleLifeTimeMin": 0.20000000298023224,
+          "particleRed1": 245,
+          "particleRed2": 248,
+          "particleSize1": 50,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 200,
+          "rendererParam2": 200,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "menu_assets\\confeti.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 10,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
-          {
-            "objectName": "Ninja"
-          },
           {
             "objectName": "Nubes"
           },
@@ -34362,6 +34639,9 @@
             "objectName": "Mundo"
           },
           {
+            "objectName": "PixiDust"
+          },
+          {
             "objectName": "Titulo"
           },
           {
@@ -34372,6 +34652,12 @@
           },
           {
             "objectName": "Vidas"
+          },
+          {
+            "objectName": "NinjaBailando"
+          },
+          {
+            "objectName": "Debug"
           },
           {
             "objectName": "Puntaje"
@@ -34388,6 +34674,30 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"baile\""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -34421,16 +34731,6 @@
             },
             {
               "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Mundo",
-                "-1",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "CentreCamera"
               },
               "parameters": [
@@ -34450,6 +34750,17 @@
                 "Text",
                 "=",
                 "\"Nivel \" + ToString(CurrentLevel+1) + \" Completado\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug",
+                "Text",
+                "=",
+                "ToString(TimerElapsedTime(\"baile\"))"
               ]
             }
           ]
@@ -34653,6 +34964,119 @@
             }
           ],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"baile\"",
+                ">=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"baile\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "Flip",
+                "Toggle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "Flip",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "Flip",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "NinjaBailando",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -36492,7 +36916,7 @@
                         "HitBoxPlayer",
                         "Resizable",
                         "=",
-                        "Player.Width()\n"
+                        "85\n"
                       ]
                     },
                     {
@@ -36696,6 +37120,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Handle Animations",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -37423,6 +37848,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Fire Bullet",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -39042,6 +39468,7 @@
               "colorG": 180,
               "colorR": 241,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -40988,6 +41415,7 @@
               "colorG": 216,
               "colorR": 248,
               "creationTime": 0,
+              "folded": true,
               "name": "Platforms",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
