@@ -2501,6 +2501,14 @@
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Score2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Score2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13242,6 +13250,86 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "IterfazScore",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Score2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TextScore",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "LifeCounter",
+        "opacity": 255,
+        "scale": 0.3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "Unnamed.fnt",
+        "textureAtlasResourceName": "Unnamed.png",
+        "align": "left",
+        "wordWrap": true,
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13256,6 +13344,12 @@
       {
         "folderName": "UI",
         "children": [
+          {
+            "objectName": "TextScore"
+          },
+          {
+            "objectName": "IterfazScore"
+          },
           {
             "objectName": "LifeCounter"
           },
@@ -13683,6 +13777,11 @@
       "name": "CurrentLives",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "Score",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -39563,6 +39662,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -40596,11 +40696,39 @@
                   "parameters": []
                 },
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Score",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "TextScore",
+                            "Text",
+                            "=",
+                            "\"Score: \" + Score"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
                   "colorB": 255,
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Coin",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -40630,6 +40758,16 @@
                             "GoldAnimation",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "10"
+                          ]
                         }
                       ]
                     }
@@ -40641,7 +40779,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Emerald",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -40681,6 +40818,16 @@
                           "parameters": [
                             "GreenCoinEmitter",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "15"
                           ]
                         }
                       ]
@@ -42463,7 +42610,6 @@
               "colorG": 180,
               "colorR": 241,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -43346,7 +43492,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Shared Enemies Logic",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -43612,6 +43757,16 @@
                               "parameters": [
                                 "Enemies",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Score",
+                                "+",
+                                "20"
                               ]
                             }
                           ]
@@ -77247,6 +77402,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "IterfazScore",
+          "persistentUuid": "907b85c7-09ce-476c-addf-adafa3886f05",
+          "width": 44,
+          "x": 674,
+          "y": 23,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 27.27272727272727,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextScore",
+          "persistentUuid": "74f46306-7f72-4086-91c3-20d0172497f7",
+          "width": 300,
+          "x": 740,
+          "y": 31,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -77259,7 +77448,7 @@
         "gridColor": 16776285,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7876290101673757,
+        "zoomFactor": 0.6244537826599992,
         "windowMask": false
       }
     }
