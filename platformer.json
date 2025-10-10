@@ -2917,6 +2917,16 @@
         "name": "tutorial\\tutorial.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "tutorial/tutorial.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tutorial\\tutorial.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16520,6 +16530,11 @@
       "name": "Score",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "MaxLives",
+      "type": "number",
+      "value": 3
     }
   ],
   "layouts": [
@@ -17505,11 +17520,31 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CurrentLives",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Level0\"",
+                "\"Menu\"",
                 ""
               ]
             }
@@ -19968,6 +20003,46 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Sound",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "tutorial\\tutorial.mp3",
+                    "1",
+                    "yes",
+                    "25",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -46621,7 +46696,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -47176,7 +47250,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Score",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -51440,7 +51513,6 @@
               "colorG": 40,
               "colorR": 238,
               "creationTime": 0,
-              "folded": true,
               "name": "Game Objects",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
