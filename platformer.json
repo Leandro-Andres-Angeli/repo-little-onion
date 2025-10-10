@@ -2509,6 +2509,86 @@
         "name": "Score2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle6.png\"}",
+        "name": "Idle6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle7.png\"}",
+        "name": "Idle7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle8.png\"}",
+        "name": "Idle8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle9.png\"}",
+        "name": "Idle9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle10.png\"}",
+        "name": "Idle10",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2715,17 +2795,22 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle384",
+                  "image": "Idle6",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -2744,6 +2829,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -2762,17 +2855,22 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle385",
+                  "image": "Idle7",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -2791,6 +2889,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -2809,17 +2915,22 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle386",
+                  "image": "Idle8",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -2838,6 +2949,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -2856,17 +2975,22 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle387",
+                  "image": "Idle9",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -2885,6 +3009,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -2903,17 +3035,22 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle388",
+                  "image": "Idle10",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -2932,6 +3069,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -2967,13 +3112,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -2992,6 +3142,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3014,13 +3172,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3039,6 +3202,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3061,13 +3232,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3086,6 +3262,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3108,13 +3292,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3133,6 +3322,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3155,13 +3352,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3180,6 +3382,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3202,13 +3412,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3227,6 +3442,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3249,13 +3472,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3274,6 +3502,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3296,13 +3532,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3321,6 +3562,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3356,13 +3605,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3381,6 +3635,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 25.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3416,13 +3678,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3441,6 +3708,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 21.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 67.5,
+                        "y": 0
                       },
                       {
                         "x": 97.5,
@@ -3476,13 +3751,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3501,6 +3781,14 @@
                       {
                         "x": 0,
                         "y": 47.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
                       },
                       {
                         "x": 94,
@@ -3536,13 +3824,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3560,11 +3853,19 @@
                     [
                       {
                         "x": 0,
+                        "y": 50
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
                         "y": 0
                       },
                       {
                         "x": 98,
-                        "y": 1.5
+                        "y": 50
                       },
                       {
                         "x": 98,
@@ -3583,13 +3884,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3607,11 +3913,19 @@
                     [
                       {
                         "x": 0,
+                        "y": 50
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
                         "y": 0
                       },
                       {
                         "x": 98,
-                        "y": 1.5
+                        "y": 50
                       },
                       {
                         "x": 98,
@@ -3630,13 +3944,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3654,11 +3973,19 @@
                     [
                       {
                         "x": 0,
+                        "y": 50
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
                         "y": 0
                       },
                       {
                         "x": 98,
-                        "y": 1.5
+                        "y": 50
                       },
                       {
                         "x": 98,
@@ -3690,13 +4017,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3710,7 +4042,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 63
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -3718,13 +4069,18 @@
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
-                      "x": 16,
-                      "y": 89
+                      "x": 10.5,
+                      "y": 156
                     },
                     {
                       "name": "CrateCollision",
                       "x": 96,
                       "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
                     }
                   ],
                   "originPoint": {
@@ -3738,7 +4094,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 63
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -4214,10 +4589,9 @@
           "masks": 1
         },
         {
-          "isFolded": true,
+          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
           "yGrabOffset": 0,
           "platformType": "NormalPlatform"
         }
@@ -23410,7 +23784,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1451328644553356,
+        "zoomFactor": 0.2725359896773015,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -23493,7 +23867,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 672,
+          "height": 576,
           "keepRatio": true,
           "layer": "",
           "name": "GreenTile",
@@ -23618,7 +23992,7 @@
           "persistentUuid": "441d2501-1db2-4546-91a7-48676f5311ec",
           "width": 0,
           "x": 1056,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23634,7 +24008,7 @@
           "persistentUuid": "4e3ed51a-8ed2-4ca1-85f2-10b932cbcab7",
           "width": 0,
           "x": 1152,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23650,7 +24024,7 @@
           "persistentUuid": "f0f6b39e-2d80-4739-aa13-e0d730672823",
           "width": 0,
           "x": 1248,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23666,7 +24040,7 @@
           "persistentUuid": "af559573-1eb3-42eb-aeb3-0c91d1688553",
           "width": 0,
           "x": 1344,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23682,7 +24056,7 @@
           "persistentUuid": "f53867f1-8e68-4ff3-8eae-0638e9b2687d",
           "width": 0,
           "x": 1440,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23698,7 +24072,7 @@
           "persistentUuid": "1770eddc-8f2a-43bd-8c5a-fcad111c35d6",
           "width": 0,
           "x": 1536,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23714,7 +24088,7 @@
           "persistentUuid": "636299e9-7101-4f70-8ba0-7a3d0b2036b6",
           "width": 0,
           "x": 1632,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23730,7 +24104,7 @@
           "persistentUuid": "292da9ce-34a7-48a4-b413-f80fb3398762",
           "width": 0,
           "x": 1728,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23746,7 +24120,7 @@
           "persistentUuid": "10f262c6-6a01-4988-8e24-b28a60428911",
           "width": 0,
           "x": 1824,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23762,7 +24136,7 @@
           "persistentUuid": "30c29442-786e-48d6-aa05-3610e5a1edb0",
           "width": 0,
           "x": 1920,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23778,7 +24152,7 @@
           "persistentUuid": "99d68d50-9b8d-4f41-bc59-af88d211dca2",
           "width": 0,
           "x": 2496,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23860,7 +24234,7 @@
           "persistentUuid": "0d434e1b-c1c3-434a-827b-a7868cb7b2b0",
           "width": 0,
           "x": 2016,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23876,7 +24250,7 @@
           "persistentUuid": "e617a1cc-5f9b-4535-a3d2-1bec1837ef1b",
           "width": 0,
           "x": 2112,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23892,7 +24266,7 @@
           "persistentUuid": "f5c86452-167e-4f9f-921b-eb8c15d879fd",
           "width": 0,
           "x": 2208,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23908,7 +24282,7 @@
           "persistentUuid": "24f802ed-9002-40ce-a54c-f0d4683d1a3c",
           "width": 0,
           "x": 2304,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -23924,7 +24298,7 @@
           "persistentUuid": "c291d804-ee63-4567-86e0-a61a470cf65c",
           "width": 0,
           "x": 2400,
-          "y": 288,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -33682,6 +34056,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Sound",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39559,7 +39934,6 @@
               "colorG": 17,
               "colorR": 143,
               "creationTime": 0,
-              "folded": true,
               "name": "Juicing",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -40237,7 +40611,7 @@
                             "",
                             "JumpParticleEmitter",
                             "Player.CenterX()",
-                            "Player.CenterY()",
+                            "Player.CenterY() - (Player.Width() * .3)",
                             ""
                           ]
                         },
@@ -40700,6 +41074,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Score",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -40729,6 +41104,7 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "PickUp Coin",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -40779,6 +41155,7 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "PickUp Emerald",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -40929,7 +41306,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Fire Bullet",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -41063,8 +41439,8 @@
                               "parameters": [
                                 "",
                                 "Bullet",
-                                "Player.CenterX()",
-                                "Player.CenterY()",
+                                "Player.CenterX()  +  (Player.Height() * .3)",
+                                "Player.CenterY() + (Player.Width()   * .5 )",
                                 ""
                               ]
                             },
@@ -41097,8 +41473,8 @@
                               "parameters": [
                                 "Bullet",
                                 "Physics2",
-                                "355",
-                                "35",
+                                "170",
+                                "-35",
                                 "Bullet2.Physics2::MassCenterX()",
                                 "Bullet2.Physics2::MassCenterY()"
                               ]
@@ -41183,8 +41559,8 @@
                               "parameters": [
                                 "",
                                 "Bullet",
-                                "Player.CenterX()",
-                                "Player.CenterY()",
+                                "Player.CenterX()  -   (Player.Height() * .3)",
+                                "Player.CenterY() + (Player.Width()   * .5 )",
                                 ""
                               ]
                             },
@@ -41217,7 +41593,7 @@
                               "parameters": [
                                 "Bullet",
                                 "Physics2",
-                                "185",
+                                "190",
                                 "35",
                                 "Bullet2.Physics2::MassCenterX()",
                                 "Bullet2.Physics2::MassCenterY()"
@@ -41916,6 +42292,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Take Harm Logic",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -42610,6 +42987,7 @@
               "colorG": 180,
               "colorR": 241,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
