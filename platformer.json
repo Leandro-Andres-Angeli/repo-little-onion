@@ -2733,6 +2733,150 @@
         "name": "enemy_assets\\tomate\\final\\idle\\frame_008.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "enemy_assets/berenjena/final/fly/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\berenjena\\final\\fly\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/berenjena/final/fly/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\berenjena\\final\\fly\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/berenjena/final/fly/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\berenjena\\final\\fly\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/berenjena/final/fly/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\berenjena\\final\\fly\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/berenjena/final/fly/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\berenjena\\final\\fly\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/idle/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\idle\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/idle/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\idle\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/idle/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\idle\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/idle/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\idle\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/idle/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\idle\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/idle/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\idle\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/shoot/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\shoot\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/shoot/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\shoot\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/shoot/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\shoot\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/shoot/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\shoot\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/shoot/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\shoot\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/shoot/frame_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\shoot\\frame_006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/brocoli/final/hit/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\brocoli\\final\\hit\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9730,6 +9874,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.1,
@@ -9760,6 +9905,7 @@
           "RandomizedAngle": 0
         },
         {
+          "isFolded": true,
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Dynamic",
@@ -9783,6 +9929,7 @@
           "masks": 1
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -13917,7 +14064,7 @@
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Dynamic",
           "bullet": false,
-          "fixedRotation": false,
+          "fixedRotation": true,
           "canSleep": true,
           "shape": "Box",
           "shapeDimensionA": 96,
@@ -14814,6 +14961,1025 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Berenjena",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 3
+        },
+        {
+          "name": "isHurt",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isAlive",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "RandomDirectionNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Direction",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "MinSpeed",
+          "type": "number",
+          "value": 400
+        },
+        {
+          "name": "MaxSpeed",
+          "type": "number",
+          "value": 550
+        },
+        {
+          "name": "hurtFXColor",
+          "type": "string",
+          "value": "#303386"
+        },
+        {
+          "name": "movementType",
+          "type": "string",
+          "value": "walk"
+        },
+        {
+          "name": "State",
+          "type": "string",
+          "value": "Init"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 96,
+          "shapeDimensionB": 96,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 0,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 0,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 0,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\berenjena\\final\\fly\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\berenjena\\final\\fly\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\berenjena\\final\\fly\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\berenjena\\final\\fly\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\berenjena\\final\\fly\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Brocoli",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 3
+        },
+        {
+          "name": "isHurt",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isAlive",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "RandomDirectionNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Direction",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "hurtFXColor",
+          "type": "string",
+          "value": "#00FF00"
+        },
+        {
+          "name": "MinSpeed",
+          "type": "number",
+          "value": 300
+        },
+        {
+          "name": "MaxSpeed",
+          "type": "number",
+          "value": 450
+        },
+        {
+          "name": "movementType",
+          "type": "string",
+          "value": "walk"
+        },
+        {
+          "name": "ShootTimerValue",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Action",
+          "type": "string",
+          "value": "None"
+        },
+        {
+          "name": "State",
+          "type": "string",
+          "value": "Init"
+        },
+        {
+          "name": "flipped",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 96,
+          "shapeDimensionB": 96,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 1000,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\idle\\frame_000.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\idle\\frame_001.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\idle\\frame_002.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\idle\\frame_003.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\idle\\frame_004.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\idle\\frame_005.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\shoot\\frame_001.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\shoot\\frame_004.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\shoot\\frame_005.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\shoot\\frame_006.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.3,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\brocoli\\final\\hit\\frame_001.png",
+                  "points": [
+                    {
+                      "name": "ShootingPoint",
+                      "x": 92.5,
+                      "y": 53.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": true,
+      "assetStoreId": "edb6923baf2b0b51dac8f4ce53b1ec10a09243ca57fb694722d79eb5ed6a62b7",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 8,
+      "emitterForceMin": 5,
+      "flow": 2,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "MagicGreen",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 134,
+      "particleBlue2": 5,
+      "particleColor1": "184;233;134",
+      "particleColor2": "65;117;5",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 233,
+      "particleGreen2": 117,
+      "particleLifeTimeMax": 1.5,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 184,
+      "particleRed2": 65,
+      "particleSize1": 40,
+      "particleSize2": 40,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": 1,
+      "textureParticleName": "DarkMagicSmoke.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -14909,6 +16075,9 @@
             "objectName": "Fairy"
           },
           {
+            "objectName": "Brocoli"
+          },
+          {
             "objectName": "JumpingEnemy"
           },
           {
@@ -14928,6 +16097,9 @@
           },
           {
             "objectName": "Mosquito"
+          },
+          {
+            "objectName": "Berenjena"
           }
         ]
       },
@@ -15027,6 +16199,9 @@
             "objectName": "Magic2"
           },
           {
+            "objectName": "MagicGreen"
+          },
+          {
             "objectName": "Magic"
           },
           {
@@ -15117,6 +16292,12 @@
         },
         {
           "name": "Tomato"
+        },
+        {
+          "name": "Berenjena"
+        },
+        {
+          "name": "Brocoli"
         }
       ]
     },
@@ -15172,6 +16353,9 @@
         },
         {
           "name": "Tomato"
+        },
+        {
+          "name": "Berenjena"
         }
       ]
     },
@@ -15206,6 +16390,9 @@
         },
         {
           "name": "Tomato"
+        },
+        {
+          "name": "Berenjena"
         }
       ]
     },
@@ -15228,6 +16415,9 @@
       "objects": [
         {
           "name": "Fairy"
+        },
+        {
+          "name": "Brocoli"
         }
       ]
     },
@@ -15313,7 +16503,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.16572117247527193,
+        "zoomFactor": 0.40575189059439143,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -19804,7 +20994,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.11894533708001406,
+        "zoomFactor": 0.2550455473354423,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -19828,22 +21018,6 @@
           "x": 0,
           "y": 576,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "75d52e9f-b3e1-47f4-b2b9-422f21d7f00d",
-          "width": 0,
-          "x": -190,
-          "y": 419,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20496,22 +21670,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "5580990e-1b49-44cc-ad8d-297a520e753a",
-          "width": 0,
-          "x": 2688,
-          "y": 576,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 384,
@@ -20557,22 +21715,6 @@
           "x": 2208,
           "y": 288,
           "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "655b0a39-fde9-42c9-a2f9-fd53a6a91a49",
-          "width": 0,
-          "x": 7776,
-          "y": -384,
-          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21017,22 +22159,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "2cec96c8-3c07-44ae-9ebb-356e3c5350b6",
-          "width": 0,
-          "x": 3072,
-          "y": 192,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 384,
@@ -21084,22 +22210,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "9794090a-6590-48e6-94f4-fd4cda3d5109",
-          "width": 0,
-          "x": 5088,
-          "y": -384,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 205.99999999999997,
@@ -21110,22 +22220,6 @@
           "x": 6261,
           "y": -384,
           "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "9f53f334-1852-4782-8b62-9cf094d70fcd",
-          "width": 0,
-          "x": 6336,
-          "y": -384,
-          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21623,22 +22717,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Mosquito",
-          "persistentUuid": "a545b02e-2566-4f7e-b99d-a79a6bb6933f",
-          "width": 0,
-          "x": 5664,
-          "y": -576,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 250,
@@ -21650,22 +22728,6 @@
           "x": 7488,
           "y": -730,
           "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Mosquito",
-          "persistentUuid": "ff7f9b48-315f-40e2-8f96-5f813a49b2ac",
-          "width": 0,
-          "x": 7104,
-          "y": -576,
-          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22229,82 +23291,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fairy",
-          "persistentUuid": "d9544015-cdea-48cd-b1c7-63d69b900c83",
-          "width": 0,
-          "x": 7488,
-          "y": -2304,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "flipped",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fairy",
-          "persistentUuid": "891e7078-787b-4a41-8e0d-fa86594c05f3",
-          "width": 0,
-          "x": 8256,
-          "y": -2112,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "flipped",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Cherry",
-          "persistentUuid": "37de3b6c-591d-4b27-9c7a-66d248489d98",
-          "width": 0,
-          "x": 672,
-          "y": 576,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Cherry",
-          "persistentUuid": "2e8783f1-5f56-4197-9f50-53775752ac36",
-          "width": 0,
-          "x": 4608,
-          "y": -96,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 192,
@@ -22339,25 +23325,251 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
           "keepRatio": true,
           "layer": "",
-          "name": "Fairy",
-          "persistentUuid": "70b02a9e-0b22-4da6-9732-9913896f33f2",
-          "width": 0,
-          "x": 9024,
-          "y": -1920,
-          "zOrder": 45,
+          "name": "Berenjena",
+          "persistentUuid": "723b669e-30ed-4aeb-8ae2-64b98f6bdeb8",
+          "width": 192,
+          "x": 5568,
+          "y": -640,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Berenjena",
+          "persistentUuid": "dd9a5bd2-2361-4f85-8ce7-e0782304cdff",
+          "width": 192,
+          "x": 7008,
+          "y": -640,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "e71201d3-a111-4510-b4ad-92987d75be01",
+          "width": 128,
+          "x": 7744,
+          "y": -480,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
-              "name": "flipped",
-              "type": "boolean",
-              "value": false
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "16117ea6-555c-4982-af20-e5d03c6f6f6b",
+          "width": 128,
+          "x": 6336,
+          "y": -480,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "5e32cf4c-bb6e-4a8f-8f93-0af6f594ef26",
+          "width": 128,
+          "x": 5056,
+          "y": -480,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tomato",
+          "persistentUuid": "e3b14623-9a8a-418b-afd8-00aa646e4026",
+          "width": 0,
+          "x": 4608,
+          "y": -96,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "2aaabbab-13e3-4dab-8848-bd68c89cb84b",
+          "width": 128,
+          "x": 3040,
+          "y": -32,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "60d93257-4183-454e-bbf6-a2b99ed759e6",
+          "width": 128,
+          "x": 2592,
+          "y": 480,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tomato",
+          "persistentUuid": "cd971816-5f21-45da-abbb-566f4e3aa36b",
+          "width": 0,
+          "x": 672,
+          "y": 480,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Brocoli",
+          "persistentUuid": "2a67f3ea-8fdf-4e18-b54e-90e03eafd0ce",
+          "width": 128,
+          "x": 7488,
+          "y": -2368,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Brocoli",
+          "persistentUuid": "d66d0d02-f80c-4d30-a054-be3bb3488ab1",
+          "width": 128,
+          "x": 8256,
+          "y": -2176,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Brocoli",
+          "persistentUuid": "51ae0bfe-53c4-466b-9795-87a7e214075c",
+          "width": 128,
+          "x": 9024,
+          "y": -1984,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "d5d60b45-af9c-4b42-b144-2dd1c0464e4f",
+          "width": 0,
+          "x": -288,
+          "y": 480,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -34538,7 +35750,7 @@
           "name": "Titulo",
           "persistentUuid": "1073475c-23f0-467a-97bc-0d4a7c1ef575",
           "width": 352,
-          "x": 272,
+          "x": 240,
           "y": 304,
           "zOrder": 14,
           "numberProperties": [],
@@ -34673,8 +35885,8 @@
           "name": "HighScore",
           "persistentUuid": "8ec57156-4bf2-4e65-a6f7-98d37d181983",
           "width": 0,
-          "x": 103,
-          "y": 480,
+          "x": 86,
+          "y": 512,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -35060,12 +36272,27 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
-          "string": "High Score : 9999",
+          "string": "HIGH SCORE: 9999",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 35,
           "color": {
             "b": 76,
             "g": 194,
@@ -35085,11 +36312,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "High Score : 9999",
+            "text": "HIGH SCORE: 9999",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 35,
             "lineHeight": 0,
             "color": "230;194;76"
           }
@@ -35374,6 +36601,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35411,6 +36639,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -41104,6 +42333,7 @@
               "colorG": 17,
               "colorR": 143,
               "creationTime": 0,
+              "folded": true,
               "name": "Juicing",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -41602,6 +42832,40 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Brocoli",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Brocoli",
+                        "flipped",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Brocoli",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
                   "object": "PoisonWave",
                   "conditions": [
                     {
@@ -41689,6 +42953,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -44155,7 +45420,6 @@
               "colorG": 180,
               "colorR": 241,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -44603,6 +45867,189 @@
                   "parameters": []
                 },
                 {
+                  "colorB": 247,
+                  "colorG": 75,
+                  "colorR": 196,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Fire Bullet Brocoli",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Brocoli",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "\"Shooting\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "ShootTimerValue",
+                            "=",
+                            "2.5"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "\"Shooting\"",
+                            ">",
+                            "RandomFloatInRange(1.5 , 2.3)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "State",
+                            "=",
+                            "\"Attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "\"Shooting\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FairyBullet",
+                            "Player",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "HealthStatus",
+                            "=",
+                            "\"Hurt\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FairyBullet",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "Animation"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "State",
+                                "=",
+                                "\"Init\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "Animation",
+                            "=",
+                            "\"Idle\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
                   "colorB": 27,
                   "colorG": 2,
                   "colorR": 208,
@@ -44613,7 +46060,6 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Fairy",
                       "conditions": [
@@ -45034,11 +46480,383 @@
                   "parameters": []
                 },
                 {
+                  "colorB": 27,
+                  "colorG": 2,
+                  "colorR": 208,
+                  "creationTime": 0,
+                  "name": "Enemy Brocoli",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Brocoli",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Brocoli",
+                                "1000",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "State",
+                                "=",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "FairyBullet",
+                            "Brocoli.CenterX()",
+                            "Brocoli.CenterX()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "Animation",
+                            "=",
+                            "\"Attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "EnemyShoot",
+                            "",
+                            "RandomInRange(2,5)",
+                            "RandomInRange(-3,-1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "Action",
+                            "=",
+                            "\"None\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"in\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "State",
+                            "=",
+                            "\"Init\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            ".5"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "Flippable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FireBullet::FireBullet::Fire"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "FireBullet",
+                                "Brocoli.PointX(\"ShootingPoint\")",
+                                "Brocoli.PointY(\"ShootingPoint\")",
+                                "FairyBullet",
+                                "0",
+                                "-300",
+                                "RandomInRange(400, 500)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetAngle"
+                              },
+                              "parameters": [
+                                "FairyBullet",
+                                "=",
+                                "180"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "FairyBullet",
+                                "Brocoli"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "Flippable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FireBullet::FireBullet::Fire"
+                              },
+                              "parameters": [
+                                "Brocoli",
+                                "FireBullet",
+                                "Brocoli.PointX(\"ShootingPoint\")",
+                                "Brocoli.PointY(\"ShootingPoint\")",
+                                "FairyBullet",
+                                "0",
+                                "300",
+                                "RandomInRange(400, 500)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "FairyBullet",
+                                "Brocoli"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "State",
+                            "=",
+                            "\"Hurt\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "Animation",
+                            "=",
+                            "\"Hurt\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FairyBullet",
+                            "Tiles",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FairyBullet",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Brocoli",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Brocoli",
+                            "isAlive",
+                            "=",
+                            "\"Hurt\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "FairyBullet",
+                            "Brocoli",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"log\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "FairyBullet",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "FairyBullet",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "DebuggerTools::ConsoleLog"
+                              },
+                              "parameters": [
+                                "\"\"",
+                                "\"info\"",
+                                "\"log bullet\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Shared Enemies Logic",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -46533,7 +48351,6 @@
               "colorG": 190,
               "colorR": 253,
               "creationTime": 0,
-              "folded": true,
               "name": "Crate",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
