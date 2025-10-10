@@ -2589,6 +2589,150 @@
         "name": "Idle10",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/idle/001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\idle\\001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/idle/002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\idle\\002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/idle/003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\idle\\003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/gengibre/run/007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\gengibre\\run\\007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_assets/tomate/final/idle/frame_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_assets\\tomate\\final\\idle\\frame_008.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4589,9 +4733,9 @@
           "masks": 1
         },
         {
-          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
           "yGrabOffset": 0,
           "platformType": "NormalPlatform"
         }
@@ -4977,6 +5121,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
           "bodyType": "Dynamic",
@@ -5000,6 +5145,7 @@
           "masks": 1
         },
         {
+          "isFolded": true,
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
           "EnableAnimationChanges": true,
@@ -5014,6 +5160,7 @@
           "Flippable": "Flippable"
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -13704,6 +13851,969 @@
         "wordWrap": true,
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ginger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "isHurt",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isAlive",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "RandomDirectionNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Direction",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "hurtFXColor",
+          "type": "string",
+          "value": "#be5340"
+        },
+        {
+          "name": "MinSpeed",
+          "type": "number",
+          "value": 300
+        },
+        {
+          "name": "MaxSpeed",
+          "type": "number",
+          "value": 450
+        },
+        {
+          "name": "movementType",
+          "type": "string",
+          "value": "walk"
+        },
+        {
+          "name": "State",
+          "type": "string",
+          "value": "Init"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 96,
+          "shapeDimensionB": 96,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16666666666666666,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\idle\\003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\idle\\002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\idle\\001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\idle\\002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\gengibre\\run\\007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 7,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tomato",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "isHurt",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isAlive",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "RandomDirectionNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Direction",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "MinSpeed",
+          "type": "number",
+          "value": 300
+        },
+        {
+          "name": "MaxSpeed",
+          "type": "number",
+          "value": 500
+        },
+        {
+          "name": "hurtFXColor",
+          "type": "string",
+          "value": "#be5340"
+        },
+        {
+          "name": "movementType",
+          "type": "string",
+          "value": "walk"
+        },
+        {
+          "name": "State",
+          "type": "string",
+          "value": "Init"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 96,
+          "shapeDimensionB": 96,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "enemy_assets\\tomate\\final\\idle\\frame_008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 28
+                      },
+                      {
+                        "x": 77,
+                        "y": 92
+                      },
+                      {
+                        "x": 19,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13793,6 +14903,9 @@
             "objectName": "Crab"
           },
           {
+            "objectName": "Ginger"
+          },
+          {
             "objectName": "Fairy"
           },
           {
@@ -13800,6 +14913,9 @@
           },
           {
             "objectName": "Cherry"
+          },
+          {
+            "objectName": "Tomato"
           },
           {
             "objectName": "EnemyWithTimerWalking"
@@ -13995,6 +15111,12 @@
         },
         {
           "name": "Ghost"
+        },
+        {
+          "name": "Ginger"
+        },
+        {
+          "name": "Tomato"
         }
       ]
     },
@@ -14044,6 +15166,12 @@
         },
         {
           "name": "EnemyWithTimerWalking"
+        },
+        {
+          "name": "Ginger"
+        },
+        {
+          "name": "Tomato"
         }
       ]
     },
@@ -14072,6 +15200,12 @@
         },
         {
           "name": "EnemyWithTimerWalking"
+        },
+        {
+          "name": "Ginger"
+        },
+        {
+          "name": "Tomato"
         }
       ]
     },
@@ -14179,7 +15313,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.44819780454104324,
+        "zoomFactor": 0.16572117247527193,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -14217,24 +15351,8 @@
           "persistentUuid": "75d52e9f-b3e1-47f4-b2b9-422f21d7f00d",
           "width": 0,
           "x": 194,
-          "y": 227,
+          "y": 192,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "0894ffbf-df09-4437-a0fa-687668e3d226",
-          "width": 0,
-          "x": 576,
-          "y": 288,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14447,22 +15565,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Crab",
-          "persistentUuid": "417b8819-afbe-4f7a-86c0-daf42a821321",
-          "width": 0,
-          "x": 4128,
-          "y": -288,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "LeftTrigger",
           "persistentUuid": "8814fff3-3f44-4112-ae79-c60b0d95deaf",
           "width": 0,
@@ -14485,38 +15587,6 @@
           "x": 3840,
           "y": -288,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "e9da1f30-3414-4ca2-a018-829bed561d8d",
-          "width": 0,
-          "x": 1632,
-          "y": 192,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "577fb7f7-7930-472c-a9e4-fff2675b0629",
-          "width": 0,
-          "x": 2208,
-          "y": 288,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15070,22 +16140,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Crab",
-          "persistentUuid": "ec2c23f7-4d89-45f9-938e-1c255802510d",
-          "width": 0,
-          "x": 2304,
-          "y": -384,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 192,
@@ -15487,22 +16541,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Cherry",
-          "persistentUuid": "71e9eafa-d3b1-41a0-b6f3-de7e07bcccfb",
-          "width": 0,
-          "x": 3552,
-          "y": -1248,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "RightTrigger",
           "persistentUuid": "3e32003d-2737-42b9-be6e-df33a01f0c3b",
           "width": 0,
@@ -15584,22 +16622,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Cherry",
-          "persistentUuid": "acae66c6-50d9-4c92-91e0-5bb5dd52beb9",
-          "width": 0,
-          "x": 2400,
-          "y": -1248,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "LeftTrigger",
           "persistentUuid": "5d53569f-0ec2-4246-b18d-7accabab9ed7",
           "width": 0,
@@ -15622,22 +16644,6 @@
           "x": 672,
           "y": -1248,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Cherry",
-          "persistentUuid": "97bfd1b7-5f6e-448d-857a-6273a55285ff",
-          "width": 0,
-          "x": 1056,
-          "y": -1248,
-          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15831,6 +16837,172 @@
           "x": 96,
           "y": 192,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "1b9183d1-f56f-4bc2-8e9b-476b41f26275",
+          "width": 128,
+          "x": 1024,
+          "y": 160,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "25cd4c1f-f472-46e9-b9b1-391010cb5fb0",
+          "width": 128,
+          "x": 1600,
+          "y": 128,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "e12afe51-2a9d-4af6-8c09-bd687a74b6ee",
+          "width": 128,
+          "x": 2112,
+          "y": 192,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "83c3fca3-55f4-46b8-9977-fe41949ffeb9",
+          "width": 128,
+          "x": 2240,
+          "y": -448,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ginger",
+          "persistentUuid": "3b785047-91f3-4af9-adce-285a28edba98",
+          "width": 128,
+          "x": 4096,
+          "y": -384,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tomato",
+          "persistentUuid": "046306fa-0da1-4aae-93ec-d74a8f6018cc",
+          "width": 96,
+          "x": 1056,
+          "y": -1344,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tomato",
+          "persistentUuid": "21a75c2d-a089-4c9d-b937-d787c5ee1f80",
+          "width": 96,
+          "x": 2400,
+          "y": -1344,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tomato",
+          "persistentUuid": "8364c41f-0056-4940-b962-31bba4361172",
+          "width": 96,
+          "x": 3552,
+          "y": -1344,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29284,7 +30456,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.17708595277544453,
+        "zoomFactor": 0.2160739732387613,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -35559,6 +36731,17 @@
                 "Flippable",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"SCORE: \"+ToString(GlobalVariable(Score))"
+              ]
             }
           ]
         },
@@ -35915,7 +37098,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.44819780454104013,
+        "zoomFactor": 0.41943397827591034,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36490,49 +37673,6 @@
           "assetStoreId": "",
           "bold": true,
           "italic": false,
-          "name": "Puntaje",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Puntaje : 9999",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 76,
-            "g": 194,
-            "r": 230
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": true,
-            "italic": false,
-            "outlineColor": "128;54;120",
-            "outlineThickness": 5,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Puntaje : 9999",
-            "font": "",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 40,
-            "lineHeight": 0,
-            "color": "230;194;76"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
           "name": "Nivel",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -36920,9 +38060,6 @@
             "objectName": "Debug"
           },
           {
-            "objectName": "Puntaje"
-          },
-          {
             "objectName": "Score"
           },
           {
@@ -37021,6 +38158,28 @@
                 "Text",
                 "=",
                 "ToString(TimerElapsedTime(\"baile\"))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Vidas",
+                "Text",
+                "=",
+                "\"VIDAS: \"+ToString(GlobalVariable(CurrentLives))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"SCORE: \"+ToString(GlobalVariable(Score))"
               ]
             }
           ]
@@ -38410,6 +39569,17 @@
                 "Ninja_estrellas",
                 "-20",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"SCORE: \"+ToString(GlobalVariable(Score))"
               ]
             }
           ]
@@ -40528,7 +41698,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Handle Animations",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -42635,7 +43804,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Jump On Enemy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -43870,6 +45038,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Shared Enemies Logic",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -44186,6 +45355,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Block Enenmy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
