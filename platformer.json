@@ -2927,6 +2927,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Ellipse 29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ellipse 29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu_assets/dream_team.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_assets\\dream_team.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -39476,7 +39492,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3797121001947974,
+        "zoomFactor": 0.40575189059438793,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39509,7 +39525,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 786,
+          "height": 2191,
           "keepRatio": true,
           "layer": "",
           "name": "Fondo",
@@ -39726,6 +39742,72 @@
           "x": 800,
           "y": 512,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Team",
+          "persistentUuid": "25a35d1f-a8d0-46c8-b1cc-8e88e85855f1",
+          "width": 0,
+          "x": 486,
+          "y": 1152,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DreamTeam",
+          "persistentUuid": "53f152b2-2a59-429c-bc61-730499e21990",
+          "width": 256,
+          "x": 544,
+          "y": 896,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PuntoTeam",
+          "persistentUuid": "dd6ba634-bf4f-49f7-8c99-00e1f4dc3d9e",
+          "width": 64,
+          "x": 672,
+          "y": 1216,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "VolverOpciones",
+          "persistentUuid": "8d18671a-1491-41ef-be44-bec981c1ab9f",
+          "width": 0,
+          "x": 224,
+          "y": 960,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40203,6 +40285,152 @@
             "PressedLabelOffsetY": 2,
             "LabelText": "🕹️ Tutorial"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Team",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "\nLeandro Angeli\nDenise Derruty\nNoelia Rivas\nLeonardo Rosas\nNahir Orellana Lopez\n",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 76,
+            "g": 194,
+            "r": 230
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "128;54;120",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "\nLeandro Angeli\nDenise Derruty\nNoelia Rivas\nLeonardo Rosas\nNahir Orellana Lopez\n",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "230;194;76"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DreamTeam",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\dream_team.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 65,
+                            "y": 0
+                          },
+                          {
+                            "x": 65,
+                            "y": 64
+                          },
+                          {
+                            "x": 4,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PuntoTeam",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "VolverOpciones",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "↩"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -40242,13 +40470,25 @@
             "objectName": "Volver"
           },
           {
+            "objectName": "VolverOpciones"
+          },
+          {
             "objectName": "Opciones"
           },
           {
             "objectName": "HighScore"
           },
           {
+            "objectName": "Team"
+          },
+          {
             "objectName": "PuntoCentro"
+          },
+          {
+            "objectName": "PuntoTeam"
+          },
+          {
+            "objectName": "DreamTeam"
           }
         ]
       },
@@ -40283,6 +40523,48 @@
                 "+",
                 "10*TimeDelta()"
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterY(\"\", 0) + (PuntoCentro.Y() - CameraCenterY(\"\",0))*0.1",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX(\"\", 0) + (PuntoCentro.X() - CameraCenterX(\"\",0))*0.1",
+                "",
+                "0"
+              ]
             },
             {
               "type": {
@@ -40293,25 +40575,8 @@
                 "-1",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "PuntoCentro",
-                "",
-                "",
-                "0"
-              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "colorB": 228,
@@ -40663,6 +40928,35 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterY(\"\", 0) + (PuntoTeam.Y() - CameraCenterY(\"\",0))*0.1",
+                "",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -40807,7 +41101,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Equipo",
+                "VolverOpciones",
                 "",
                 "",
                 ""
@@ -40829,10 +41123,26 @@
               "parameters": [
                 "TipoMenu",
                 "=",
-                "1"
+                "2"
               ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         },
         {
@@ -40884,8 +41194,50 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Equipo",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "2"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
