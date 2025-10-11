@@ -39476,11 +39476,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5843784410740982,
+        "zoomFactor": 0.3797121001947974,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "TipoMenu",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -39568,22 +39574,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Iniciar",
-          "persistentUuid": "fe384825-d068-443f-a59f-d13de0de19e4",
-          "width": 0,
-          "x": 896,
-          "y": 320,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 97,
@@ -39656,6 +39646,89 @@
               "value": false
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Opciones",
+          "persistentUuid": "2b06c60f-3f8d-4447-9e42-f85e16441676",
+          "width": 256,
+          "x": 896,
+          "y": 320,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Iniciar",
+          "persistentUuid": "6325729c-3031-4c6b-a859-e5eb3875b142",
+          "width": 0,
+          "x": 896,
+          "y": 512,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Volver",
+          "persistentUuid": "2100b7be-3882-4cab-9ca8-e7fe8f6de111",
+          "width": 0,
+          "x": 512,
+          "y": 512,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Equipo",
+          "persistentUuid": "7a943c5d-4a34-4ec7-87cd-a5375c63ed6a",
+          "width": 416,
+          "x": 800,
+          "y": 320,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tutorial",
+          "persistentUuid": "1382c7ef-77b5-437c-955c-6750b3a717bb",
+          "width": 416,
+          "x": 800,
+          "y": 512,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -39896,23 +39969,6 @@
         },
         {
           "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
-          "name": "Iniciar",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Orange Bubble Button",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "LeftPadding": 10,
-            "RightPadding": 10,
-            "PressedLabelOffsetY": 2,
-            "LabelText": "▶"
-          }
-        },
-        {
-          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
           "name": "Sound",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variant": "Orange Bubble Button",
@@ -40062,6 +40118,91 @@
             "lineHeight": 0,
             "color": "230;194;76"
           }
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Opciones",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": " 🛠"
+          }
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Iniciar",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "▶"
+          }
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Volver",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "↩"
+          }
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Equipo",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "👥 Team"
+          }
+        },
+        {
+          "assetStoreId": "72c8adcfb9187ebb5fcfbcd75bc18c74d6af5507e7c482cadcfad28f8011b387",
+          "name": "Tutorial",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Orange Bubble Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "LeftPadding": 10,
+            "RightPadding": 10,
+            "PressedLabelOffsetY": 2,
+            "LabelText": "🕹️ Tutorial"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -40086,10 +40227,22 @@
             "objectName": "Titulo"
           },
           {
+            "objectName": "Sound"
+          },
+          {
             "objectName": "Iniciar"
           },
           {
-            "objectName": "Sound"
+            "objectName": "Equipo"
+          },
+          {
+            "objectName": "Tutorial"
+          },
+          {
+            "objectName": "Volver"
+          },
+          {
+            "objectName": "Opciones"
           },
           {
             "objectName": "HighScore"
@@ -40157,40 +40310,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Iniciar",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Historia\"",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -40322,7 +40443,7 @@
                     "menu_assets\\intro.mp3",
                     "1",
                     "yes",
-                    "50",
+                    "25",
                     "1"
                   ]
                 },
@@ -40412,7 +40533,350 @@
               },
               "parameters": [
                 "",
-                "\"MenuFinalJuego\"",
+                "\"Opciones\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Iniciar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Opciones",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Volver"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Tutorial"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Equipo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Tutorial",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Equipo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Volver",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Iniciar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Opciones"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Iniciar",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Historia\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Opciones",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Volver",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Equipo",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Tutorial",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TipoMenu",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Tutorial\"",
                 ""
               ]
             }
@@ -45536,7 +46000,7 @@
               },
               "parameters": [
                 "",
-                "\"Tutorial\"",
+                "\"Level0\"",
                 ""
               ]
             }
@@ -45636,7 +46100,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Tutorial\"",
+                    "\"Level0\"",
                     ""
                   ]
                 }
