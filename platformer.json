@@ -2943,6 +2943,102 @@
         "name": "menu_assets\\dream_team.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/AttackingStill13.png\"}",
+        "name": "AttackingStill13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/AttackingStill20.png\"}",
+        "name": "AttackingStill20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackingStill22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackingStill22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GrabbingPlatform.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GrabbingPlatform",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GrabbingPlatform2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GrabbingPlatform2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3181,8 +3277,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 13,
+                        "y": 50
                       },
                       {
                         "x": 29.5,
@@ -3193,15 +3289,15 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 90,
+                        "y": 50
                       },
                       {
-                        "x": 94,
+                        "x": 91,
                         "y": 157
                       },
                       {
-                        "x": 0,
+                        "x": 11.5,
                         "y": 157
                       }
                     ]
@@ -3241,8 +3337,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 13,
+                        "y": 50
                       },
                       {
                         "x": 29.5,
@@ -3253,15 +3349,15 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 90,
+                        "y": 50
                       },
                       {
-                        "x": 94,
+                        "x": 91,
                         "y": 157
                       },
                       {
-                        "x": 0,
+                        "x": 11.5,
                         "y": 157
                       }
                     ]
@@ -3301,8 +3397,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 13,
+                        "y": 50
                       },
                       {
                         "x": 29.5,
@@ -3313,15 +3409,15 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 90,
+                        "y": 50
                       },
                       {
-                        "x": 94,
+                        "x": 91,
                         "y": 157
                       },
                       {
-                        "x": 0,
+                        "x": 11.5,
                         "y": 157
                       }
                     ]
@@ -3361,8 +3457,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 13,
+                        "y": 50
                       },
                       {
                         "x": 29.5,
@@ -3373,15 +3469,15 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 90,
+                        "y": 50
                       },
                       {
-                        "x": 94,
+                        "x": 91,
                         "y": 157
                       },
                       {
-                        "x": 0,
+                        "x": 11.5,
                         "y": 157
                       }
                     ]
@@ -3421,8 +3517,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 13,
+                        "y": 50
                       },
                       {
                         "x": 29.5,
@@ -3433,15 +3529,15 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 90,
+                        "y": 50
                       },
                       {
-                        "x": 94,
+                        "x": 91,
                         "y": 157
                       },
                       {
-                        "x": 0,
+                        "x": 11.5,
                         "y": 157
                       }
                     ]
@@ -3494,8 +3590,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3506,16 +3602,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3554,8 +3650,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3566,16 +3662,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3614,8 +3710,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3626,16 +3722,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3674,8 +3770,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3686,16 +3782,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3734,8 +3830,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3746,16 +3842,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3794,8 +3890,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3806,16 +3902,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3854,8 +3950,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3866,16 +3962,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -3914,8 +4010,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 47.5
+                        "x": 10.5,
+                        "y": 49.5
                       },
                       {
                         "x": 31.5,
@@ -3926,16 +4022,16 @@
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 47.5
+                        "x": 85.5,
+                        "y": 48
                       },
                       {
-                        "x": 94,
-                        "y": 154
+                        "x": 87,
+                        "y": 153
                       },
                       {
-                        "x": 0,
-                        "y": 154
+                        "x": 12.5,
+                        "y": 153
                       }
                     ]
                   ]
@@ -4174,7 +4270,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackingStill10",
+                  "image": "AttackingStill22",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
@@ -4223,18 +4319,18 @@
                       },
                       {
                         "x": 98,
-                        "y": 157
+                        "y": 150
                       },
                       {
                         "x": 0,
-                        "y": 157
+                        "y": 150
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackingStill11",
+                  "image": "AttackingStill20",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
@@ -4283,71 +4379,11 @@
                       },
                       {
                         "x": 98,
-                        "y": 157
+                        "y": 150
                       },
                       {
                         "x": 0,
-                        "y": 157
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "AttackingStill12",
-                  "points": [
-                    {
-                      "name": "WalkingTrailPoint",
-                      "x": 10.5,
-                      "y": 156
-                    },
-                    {
-                      "name": "CrateCollision",
-                      "x": 96,
-                      "y": 95
-                    },
-                    {
-                      "name": "FireBall",
-                      "x": 97.5,
-                      "y": 75
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 50
-                      },
-                      {
-                        "x": 33.5,
-                        "y": 0
-                      },
-                      {
-                        "x": 70,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 50
-                      },
-                      {
-                        "x": 98,
-                        "y": 157
-                      },
-                      {
-                        "x": 0,
-                        "y": 157
+                        "y": 150
                       }
                     ]
                   ]
@@ -4465,6 +4501,71 @@
                       {
                         "x": 0,
                         "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GrabbingPlatform",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "GrabbingPlatform2",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 98,
+                        "y": 55
+                      },
+                      {
+                        "x": 97.5,
+                        "y": 151
+                      },
+                      {
+                        "x": 0,
+                        "y": 151
                       }
                     ]
                   ]
@@ -11254,9 +11355,9 @@
       "effects": [],
       "behaviors": [
         {
+          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
@@ -29926,7 +30027,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2725359896773015,
+        "zoomFactor": 0.09748304263251391,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -29964,8 +30065,8 @@
           "name": "Player",
           "persistentUuid": "7f99f942-cf7c-48a6-b3cd-f0b0903a6cdd",
           "width": 0,
-          "x": 384,
-          "y": 672,
+          "x": 482,
+          "y": 611,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -46995,7 +47096,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -47780,8 +47880,35 @@
                             "PlatformerObject",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"GrabbingPlatform\""
+                          ]
                         }
                       ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsGrabbingPlatform"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": []
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -48072,6 +48199,49 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DepartScene"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentLevel",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
                         {
@@ -48083,6 +48253,86 @@
                             "Text",
                             "=",
                             "\"Score: \" + Score"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            ">=",
+                            "500"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentLives",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "PlayerGlobal.CurrentHealth",
+                            "=",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Score",
+                            "-",
+                            "500"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "TextScore",
+                            "Text",
+                            "=",
+                            "\"Score: \" + Score"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "LifeCounter",
+                            "Text",
+                            "=",
+                            "\"x\"+CurrentLives"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                          },
+                          "parameters": [
+                            "CurrentHealth",
+                            "Resizable",
+                            "=",
+                            "64 * ( PlayerGlobal.CurrentHealth )"
                           ]
                         }
                       ]
@@ -48208,7 +48458,6 @@
                   "colorG": 6,
                   "colorR": 199,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUpItems",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -48830,7 +49079,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Getting Hit",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -49283,7 +49531,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Take Harm Logic",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -49626,6 +49873,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Jump On Enemy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -49924,6 +50172,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Permanent Death",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -51730,7 +51979,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Block Enenmy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -52050,9 +52298,108 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "BlockEnemy",
+                            "Player",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "HealthStatus",
+                            "=",
+                            "\"Hurt\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SeparateFromObjects"
+                          },
+                          "parameters": [
+                            "Player",
+                            "BlockEnemy",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"hit\""
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"f\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "HealthStatus",
+                        "=",
+                        "\"Hurt\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "\"\"",
+                        "\"info\"",
+                        "\"test\""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "colorB": 39,
@@ -52487,7 +52834,6 @@
               "colorG": 216,
               "colorR": 248,
               "creationTime": 0,
-              "folded": true,
               "name": "Platforms",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -85383,7 +85729,7 @@
         "gridColor": 16776285,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6244537826599992,
+        "zoomFactor": 0.6040838749988869,
         "windowMask": false
       }
     }
