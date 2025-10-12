@@ -3103,6 +3103,150 @@
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorIdle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorIdle10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/OnFloorMoving8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "OnFloorMoving8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3139,6 +3283,16 @@
           "name": "defaultJumpSpeed",
           "type": "number",
           "value": 1000
+        },
+        {
+          "name": "Actions",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Idle"
+            }
+          ]
         }
       ],
       "effects": [
@@ -3185,20 +3339,6 @@
           "ExponentialCoolingRate": 0.3,
           "BulletLayer": "",
           "RandomizedAngle": 0
-        },
-        {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
-          "EnableAnimationChanges": true,
-          "EnableHorizontalFlipping": true,
-          "IdleAnimationName": "Idle",
-          "RunAnimationName": "Run",
-          "JumpAnimationName": "Jump",
-          "FallAnimationName": "Fall",
-          "ClimbAnimationName": "Climb",
-          "PlatformerBehavior": "PlatformerObject",
-          "Animation": "Animation",
-          "Flippable": "Flippable"
         },
         {
           "name": "PlatformerObject",
@@ -3304,11 +3444,131 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.2,
+              "timeBetweenFrames": 0.08333333333333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Idle6",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 91,
+                        "y": 157
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle6",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 91,
+                        "y": 157
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle7",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
@@ -3488,7 +3748,187 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "Idle8",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 91,
+                        "y": 157
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "Idle9",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 91,
+                        "y": 157
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle9",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 91,
+                        "y": 157
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle10",
                   "points": [
                     {
                       "name": "WalkingTrailPoint",
@@ -4653,6 +5093,968 @@
                       {
                         "x": 0,
                         "y": 151
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnFloorIdle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.058823529411764705,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle2",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle3",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle4",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle5",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle6",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle7",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle8",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle9",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorIdle10",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 157
+                      },
+                      {
+                        "x": 0,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnFloorMoving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.07142857142857142,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving2",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving3",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving4",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving5",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving6",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving7",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OnFloorMoving8",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 153.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 153.5
                       }
                     ]
                   ]
@@ -16234,6 +17636,92 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DebugPlayerState",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "DebugPlayerState",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 180,
+        "g": 180,
+        "r": 5
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "DebugPlayerState",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "5;180;180"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DebugPlayerAction",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "DebugPlayerAction",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 180,
+        "g": 180,
+        "r": 5
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "DebugPlayerAction",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "5;180;180"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -16244,6 +17732,12 @@
       },
       {
         "objectName": "blockStateText"
+      },
+      {
+        "objectName": "DebugPlayerState"
+      },
+      {
+        "objectName": "DebugPlayerAction"
       },
       {
         "folderName": "UI",
@@ -16739,6 +18233,53 @@
       "name": "MaxLives",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "PlayerPositionEnum",
+      "type": "structure",
+      "children": [
+        {
+          "name": "InTheAir",
+          "type": "string",
+          "value": "InTheAir"
+        },
+        {
+          "name": "OnFloor",
+          "type": "string",
+          "value": "OnFloor"
+        },
+        {
+          "name": "OnPlatform",
+          "type": "string",
+          "value": "OnPlatform"
+        }
+      ]
+    },
+    {
+      "name": "PlayerActionsEnum",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Attacking",
+          "type": "string",
+          "value": "Attacking"
+        },
+        {
+          "name": "Grabbing",
+          "type": "string",
+          "value": "Grabbing"
+        },
+        {
+          "name": "Idle",
+          "type": "string",
+          "value": "Idle"
+        },
+        {
+          "name": "Moving",
+          "type": "string",
+          "value": "Moving"
+        }
+      ]
     }
   ],
   "layouts": [
@@ -22319,71 +23860,6 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "PunchElement",
-                "Tween",
-                "\"TweenPosition\"",
-                "PunchElement.CenterX() -30",
-                "PunchElement.CenterY() - 30",
-                "\"linear\"",
-                ".5",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "PunchElement",
-                "Tween",
-                "\"TweenPosition\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "PunchElement",
-                "Tween",
-                "\"TweenPosition\"",
-                "Player.PointX(\"PunchPosition\")",
-                "Player.PointY(\"PunchPosition\")",
-                "\"linear\"",
-                "4",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -24940,7 +26416,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2467258695740707,
+        "zoomFactor": 0.39251611754883514,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -27516,6 +28992,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DebugPlayerState",
+          "persistentUuid": "d7fd0eb9-74c5-4bc4-bddf-ad1255e3ae06",
+          "width": 0,
+          "x": -325,
+          "y": 288,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DebugPlayerAction",
+          "persistentUuid": "2e304820-2c7c-49ec-81e9-a3b411cc5ae6",
+          "width": 0,
+          "x": -288,
+          "y": 384,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -27639,6 +29147,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -27649,6 +29200,9 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -47271,19 +48825,48 @@
                   ]
                 },
                 {
-                  "disabled": true,
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Setting Character Initial State",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [],
+                  "parameters": []
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "moving_enemy_state",
-                        "Text",
+                        "Player",
+                        "Animation",
                         "=",
-                        "EnemyWithTimerWalking.Direction+\" \"+EnemyWithTimerWalking.State+\" \""
+                        "Player.State+Player.Actions[0]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "\"\"",
+                        "\"info\"",
+                        "Player.Actions[0]"
                       ]
                     }
                   ]
@@ -47705,10 +49288,995 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "DebugPlayerState",
+                        "Text",
+                        "=",
+                        "Player.State"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "DebugPlayerAction",
+                        "Text",
+                        "=",
+                        "Player.Actions[0]"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "name": "Handle Animations",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Left\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Right\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.OnFloorMoving"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Run\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.Idle"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Idle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.Idle"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Idle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.OnFloorAttacking"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"on floor attacking\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "HealthStatus",
+                            "=",
+                            "\"Recovery\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Hurt\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            ".2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsJumping"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "PlayerJumping",
+                            "",
+                            "10",
+                            "RandomInRange(-1,2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "JumpParticleEmitter",
+                            "Player.CenterX()",
+                            "Player.CenterY() - (Player.Width() * .3)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"inTheAir\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Jump\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CanGrabPlatforms"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Action",
+                                "=",
+                                "\"Shoot\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"AttackingRun\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"inTheAir\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Falling\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnyKeyPressed"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::CanGrabPlatforms"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject",
+                                "yes"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Action",
+                                "!=",
+                                "\"Shoot\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Jump\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Action",
+                                "=",
+                                "\"Shoot\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"AttackingRun\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::IsGrabbingPlatform"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Tiles",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IgnoreDefaultControls"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"GrabbingPlatform\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"onFloor\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Idle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Action",
+                            "=",
+                            "\"Shoot\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Run\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsJumping"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Action",
+                                "=",
+                                "\"Shoot\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"AttackingRun\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "7"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "9"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "PlayerWalkingTrail",
+                                "Player.PointX(\"WalkingTrailPoint\")",
+                                "Player.Y(\"WalkingTrailPoint\")",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"Jumping\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"Jumping\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsGrabbingPlatform"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            ".1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"JumpDone\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"JumpDone\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            ".3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "\"OnFloor\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": true,
+                  "folded": true,
                   "name": "Handle Animations",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -48534,6 +51102,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Score",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -48935,17 +51504,6 @@
                             },
                             {
                               "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Idle\""
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "CompareObjectTimer"
                               },
                               "parameters": [
@@ -48954,6 +51512,12 @@
                                 ">=",
                                 ".6"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ]
                         }
@@ -48972,11 +51536,13 @@
                         },
                         {
                           "type": {
-                            "value": "ResetObjectTimer"
+                            "value": "SetStringObjectVariable"
                           },
                           "parameters": [
                             "Player",
-                            "\"ShootingTimer\""
+                            "State",
+                            "+",
+                            "Player.Action"
                           ]
                         }
                       ],
@@ -49225,6 +51791,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -49242,6 +51809,14 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            ".5"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetStringObjectVariable"
                           },
                           "parameters": [
@@ -49249,6 +51824,15 @@
                             "Action",
                             "=",
                             "\"Idle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"ShootingTimer\""
                           ]
                         }
                       ],
@@ -49279,6 +51863,253 @@
                                 "\"AttackingStill\""
                               ]
                             }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Player StateManagement",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.OnFloor"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "KeyFromTextPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"d\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Action",
+                                    "=",
+                                    "\"ShootInProgress\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "DebuggerTools::ConsoleLog"
+                              },
+                              "parameters": [
+                                "\"\"",
+                                "\"info\"",
+                                "Player.Action"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Left\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Right\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"Here moving\"\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Actions[0]",
+                            "=",
+                            "PlayerActionsEnum.Moving"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AnyKeyPressed"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"Here not moving\"\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Actions[0]",
+                            "=",
+                            "PlayerActionsEnum.Idle"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "Player.State+Player.Actions[0]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "\"changing animation\"\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"\"",
+                            "\"info\"",
+                            "Player.Actions[0]"
                           ]
                         }
                       ]
