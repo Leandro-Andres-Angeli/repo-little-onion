@@ -3247,6 +3247,30 @@
         "name": "OnFloorMoving8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/InTheAirIdleAttacking.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InTheAirIdleAttacking",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InTheAirIdleAttacking2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InTheAirIdleAttacking2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InTheAirMovingAttacking.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InTheAirMovingAttacking",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3291,8 +3315,17 @@
             {
               "type": "string",
               "value": "Idle"
+            },
+            {
+              "type": "string",
+              "value": ""
             }
           ]
+        },
+        {
+          "name": "AllowToShoot",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [
@@ -3496,11 +3529,11 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -3556,71 +3589,11 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
-                        "y": 157
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle7",
-                  "points": [
-                    {
-                      "name": "WalkingTrailPoint",
-                      "x": 10.5,
-                      "y": 156
-                    },
-                    {
-                      "name": "CrateCollision",
-                      "x": 96,
-                      "y": 95
-                    },
-                    {
-                      "name": "FireBall",
-                      "x": 97.5,
-                      "y": 75
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 50
-                      },
-                      {
-                        "x": 29.5,
-                        "y": 0
-                      },
-                      {
-                        "x": 73,
-                        "y": 0
-                      },
-                      {
-                        "x": 90,
-                        "y": 50
-                      },
-                      {
-                        "x": 91,
-                        "y": 157
-                      },
-                      {
-                        "x": 11.5,
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -3676,11 +3649,71 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
+                        "x": 14,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle7",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 89.5,
+                        "y": 157
+                      },
+                      {
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -3736,11 +3769,11 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -3796,71 +3829,11 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
-                        "y": 157
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle9",
-                  "points": [
-                    {
-                      "name": "WalkingTrailPoint",
-                      "x": 10.5,
-                      "y": 156
-                    },
-                    {
-                      "name": "CrateCollision",
-                      "x": 96,
-                      "y": 95
-                    },
-                    {
-                      "name": "FireBall",
-                      "x": 97.5,
-                      "y": 75
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 13,
-                        "y": 50
-                      },
-                      {
-                        "x": 29.5,
-                        "y": 0
-                      },
-                      {
-                        "x": 73,
-                        "y": 0
-                      },
-                      {
-                        "x": 90,
-                        "y": 50
-                      },
-                      {
-                        "x": 91,
-                        "y": 157
-                      },
-                      {
-                        "x": 11.5,
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -3916,11 +3889,71 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
+                        "x": 14,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle9",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 50
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 90,
+                        "y": 50
+                      },
+                      {
+                        "x": 89.5,
+                        "y": 157
+                      },
+                      {
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -3976,11 +4009,11 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -4036,11 +4069,11 @@
                         "y": 50
                       },
                       {
-                        "x": 91,
+                        "x": 89.5,
                         "y": 157
                       },
                       {
-                        "x": 11.5,
+                        "x": 14,
                         "y": 157
                       }
                     ]
@@ -4109,8 +4142,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4169,8 +4202,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4229,8 +4262,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4289,8 +4322,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4349,8 +4382,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4409,8 +4442,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4469,8 +4502,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4529,8 +4562,8 @@
                         "y": 48
                       },
                       {
-                        "x": 87,
-                        "y": 153
+                        "x": 85,
+                        "y": 153.5
                       },
                       {
                         "x": 12.5,
@@ -4544,7 +4577,7 @@
           ]
         },
         {
-          "name": "Jump",
+          "name": "InTheAirIdle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4608,6 +4641,136 @@
                       {
                         "x": 0,
                         "y": 154
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "InTheAirIdleAttacking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "InTheAirIdleAttacking2",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 98,
+                        "y": 0
+                      },
+                      {
+                        "x": 98,
+                        "y": 151.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 152
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "InTheAirMovingAttacking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "InTheAirMovingAttacking",
+                  "points": [
+                    {
+                      "name": "WalkingTrailPoint",
+                      "x": 10.5,
+                      "y": 156
+                    },
+                    {
+                      "name": "CrateCollision",
+                      "x": 96,
+                      "y": 95
+                    },
+                    {
+                      "name": "FireBall",
+                      "x": 97.5,
+                      "y": 75
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 94,
+                        "y": 0
+                      },
+                      {
+                        "x": 98,
+                        "y": 152
+                      },
+                      {
+                        "x": 0,
+                        "y": 152
                       }
                     ]
                   ]
@@ -4763,7 +4926,7 @@
           ]
         },
         {
-          "name": "AttackingStill",
+          "name": "OnFloorIdleAttacking",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4821,11 +4984,11 @@
                         "y": 50
                       },
                       {
-                        "x": 98,
+                        "x": 80,
                         "y": 150
                       },
                       {
-                        "x": 0,
+                        "x": 15,
                         "y": 150
                       }
                     ]
@@ -4881,11 +5044,11 @@
                         "y": 50
                       },
                       {
-                        "x": 98,
+                        "x": 80,
                         "y": 150
                       },
                       {
-                        "x": 0,
+                        "x": 15,
                         "y": 150
                       }
                     ]
@@ -4896,13 +5059,13 @@
           ]
         },
         {
-          "name": "AttackingRun",
+          "name": "OnFloorMovingAttacking",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -4938,8 +5101,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 46.5
+                        "x": 7.5,
+                        "y": 47
                       },
                       {
                         "x": 25.5,
@@ -4950,15 +5113,15 @@
                         "y": 0
                       },
                       {
-                        "x": 85,
-                        "y": 41.5
+                        "x": 94,
+                        "y": 47
                       },
                       {
-                        "x": 92.5,
-                        "y": 152
+                        "x": 94.5,
+                        "y": 151.5
                       },
                       {
-                        "x": 0,
+                        "x": 9,
                         "y": 152
                       }
                     ]
@@ -4998,8 +5161,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 46.5
+                        "x": 7.5,
+                        "y": 47
                       },
                       {
                         "x": 25.5,
@@ -5010,15 +5173,15 @@
                         "y": 0
                       },
                       {
-                        "x": 85,
-                        "y": 41.5
+                        "x": 94,
+                        "y": 47
                       },
                       {
-                        "x": 92.5,
-                        "y": 152
+                        "x": 94.5,
+                        "y": 151.5
                       },
                       {
-                        "x": 0,
+                        "x": 9,
                         "y": 152
                       }
                     ]
@@ -5029,7 +5192,7 @@
           ]
         },
         {
-          "name": "GrabbingPlatform",
+          "name": "InTheAirGrabbing",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5144,19 +5307,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5196,19 +5359,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5248,19 +5411,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5300,19 +5463,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5352,19 +5515,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5404,19 +5567,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5456,19 +5619,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5508,19 +5671,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5560,19 +5723,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5612,19 +5775,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 10.5,
                         "y": 0
                       },
                       {
-                        "x": 94,
+                        "x": 83,
                         "y": 0
                       },
                       {
-                        "x": 94,
-                        "y": 157
+                        "x": 80.5,
+                        "y": 155.5
                       },
                       {
-                        "x": 0,
+                        "x": 13.5,
                         "y": 157
                       }
                     ]
@@ -5677,20 +5840,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -5729,20 +5900,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -5781,20 +5960,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -5833,20 +6020,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -5885,20 +6080,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -5937,20 +6140,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -5989,20 +6200,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -6041,20 +6260,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.5,
+                        "y": 130
                       },
                       {
-                        "x": 94,
-                        "y": 0
+                        "x": 13,
+                        "y": 4.5
                       },
                       {
-                        "x": 93.5,
-                        "y": 153.5
+                        "x": 92.5,
+                        "y": 4
                       },
                       {
-                        "x": 0,
-                        "y": 153.5
+                        "x": 95.5,
+                        "y": 128
+                      },
+                      {
+                        "x": 70,
+                        "y": 154
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 154
                       }
                     ]
                   ]
@@ -6197,10 +6424,10 @@
       "effects": [],
       "behaviors": [
         {
+          "canGoDownFromJumpthru": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
@@ -12507,9 +12734,9 @@
           "masks": 1
         },
         {
+          "canBeGrabbed": true,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
@@ -12844,9 +13071,9 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
@@ -26399,8 +26626,8 @@
     {
       "b": 20,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level1",
-      "name": "Level1",
+      "mangledName": "Level2",
+      "name": "Level2",
       "r": 20,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -26424,7 +26651,7 @@
         {
           "name": "SceneNumber",
           "type": "number",
-          "value": 1
+          "value": 2
         }
       ],
       "instances": [
@@ -28989,38 +29216,6 @@
           "x": -288,
           "y": 480,
           "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "DebugPlayerState",
-          "persistentUuid": "d7fd0eb9-74c5-4bc4-bddf-ad1255e3ae06",
-          "width": 0,
-          "x": -325,
-          "y": 288,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "DebugPlayerAction",
-          "persistentUuid": "2e304820-2c7c-49ec-81e9-a3b411cc5ae6",
-          "width": 0,
-          "x": -288,
-          "y": 384,
-          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31651,8 +31846,8 @@
     {
       "b": 20,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level2",
-      "name": "Level2",
+      "mangledName": "Level1",
+      "name": "Level1",
       "r": 20,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -31668,7 +31863,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.44819780454104996,
+        "zoomFactor": 0.34375202416124245,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -31676,7 +31871,7 @@
         {
           "name": "SceneNumber",
           "type": "number",
-          "value": 2
+          "value": 1
         }
       ],
       "instances": [
@@ -32046,14 +32241,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1056,
+          "height": 960,
           "keepRatio": true,
           "layer": "",
           "name": "GreenTile",
           "persistentUuid": "8d0a4af9-1def-4db0-a573-6c4f529e7c62",
           "width": 96,
           "x": 1728,
-          "y": 480,
+          "y": 576,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -32242,14 +32437,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1056,
+          "height": 960,
           "keepRatio": true,
           "layer": "",
           "name": "GreenTile",
           "persistentUuid": "93f355e5-e122-4525-ace8-6367c424c539",
           "width": 288,
           "x": 1440,
-          "y": 480,
+          "y": 576,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -34578,6 +34773,23 @@
           "x": 672,
           "y": 768,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenTile",
+          "persistentUuid": "bc081286-b8ed-45a6-822d-cb691d356cf7",
+          "width": 384,
+          "x": 1440,
+          "y": 480,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36961,6 +37173,35 @@
             "includeConfig": 0
           },
           "target": "GameEvents"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level2\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -48868,6 +49109,17 @@
                         "\"info\"",
                         "Player.Actions[0]"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Actions[1]",
+                        "=",
+                        "\"\""
+                      ]
                     }
                   ]
                 },
@@ -49054,7 +49306,7 @@
                         "HitBoxPlayer",
                         "Resizable",
                         "=",
-                        "Player.Width()"
+                        "Player.Width() * 1.1"
                       ]
                     },
                     {
@@ -49377,164 +49629,6 @@
                       ]
                     },
                     {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "PlayerPositionEnum.OnFloorMoving"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Run\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "PlayerPositionEnum.Idle"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "PlayerPositionEnum.Idle"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "PlayerPositionEnum.OnFloorAttacking"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"\"",
-                            "\"info\"",
-                            "\"on floor attacking\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "HealthStatus",
-                            "=",
-                            "\"Recovery\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Hurt\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".2"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
                       "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -49569,18 +49663,6 @@
                         },
                         {
                           "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "JumpParticleEmitter",
-                            "Player.CenterX()",
-                            "Player.CenterY() - (Player.Width() * .3)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetStringObjectVariable"
                           },
                           "parameters": [
@@ -49588,17 +49670,6 @@
                             "State",
                             "=",
                             "\"inTheAir\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Jump\""
                           ]
                         }
                       ],
@@ -49636,1461 +49707,8 @@
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Shoot\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingRun\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"inTheAir\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Falling\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnyKeyPressed"
-                              },
-                              "parameters": [
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::CanGrabPlatforms"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject",
-                                "yes"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "!=",
-                                "\"Shoot\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Jump\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Shoot\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingRun\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyFromTextPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Right\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyFromTextPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Left\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "PlatformBehavior::IsGrabbingPlatform"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "PlatformerObject"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "Tiles",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IgnoreDefaultControls"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"GrabbingPlatform\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"onFloor\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Action",
-                            "=",
-                            "\"Shoot\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Run\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::IsJumping"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Shoot\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingRun\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "3"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "7"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "9"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "PlayerWalkingTrail",
-                                "Player.PointX(\"WalkingTrailPoint\")",
-                                "Player.Y(\"WalkingTrailPoint\")",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"Jumping\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"Jumping\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsOnFloor"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsGrabbingPlatform"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"JumpDone\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"JumpDone\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"OnFloor\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "disabled": true,
-                  "folded": true,
-                  "name": "Handle Animations",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "HealthStatus",
-                            "=",
-                            "\"Recovery\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Hurt\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".2"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsJumping"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "PlayerJumping",
-                            "",
-                            "10",
-                            "RandomInRange(-1,2)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "JumpParticleEmitter",
-                            "Player.CenterX()",
-                            "Player.CenterY() - (Player.Width() * .3)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"inTheAir\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Jump\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnyKeyPressed"
-                              },
-                              "parameters": [
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::CanGrabPlatforms"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject",
-                                "yes"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Shoot\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingRun\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"inTheAir\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Falling\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnyKeyPressed"
-                              },
-                              "parameters": [
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::CanGrabPlatforms"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject",
-                                "yes"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "!=",
-                                "\"Shoot\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Jump\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Shoot\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingRun\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyFromTextPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Right\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "KeyFromTextPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Left\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "PlatformBehavior::IsGrabbingPlatform"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "PlatformerObject"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "Tiles",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IgnoreDefaultControls"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"GrabbingPlatform\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"onFloor\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Action",
-                            "=",
-                            "\"Shoot\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Run\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::IsJumping"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "StringObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Action",
-                                "=",
-                                "\"Shoot\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingRun\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "3"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "7"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Sprite"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "=",
-                                    "9"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "PlayerWalkingTrail",
-                                "Player.PointX(\"WalkingTrailPoint\")",
-                                "Player.Y(\"WalkingTrailPoint\")",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"Jumping\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"Jumping\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsOnFloor"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsGrabbingPlatform"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"JumpDone\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"JumpDone\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "State",
-                            "=",
-                            "\"OnFloor\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyFromTextPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Left\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Flippable",
-                            "yes"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyFromTextPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Right\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Flippable",
-                            "no"
-                          ]
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     }
@@ -51255,7 +49873,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Coin",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -51306,7 +49923,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Emerald",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -51504,6 +50120,17 @@
                             },
                             {
                               "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "AllowToShoot",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "CompareObjectTimer"
                               },
                               "parameters": [
@@ -51540,9 +50167,9 @@
                           },
                           "parameters": [
                             "Player",
-                            "State",
-                            "+",
-                            "Player.Action"
+                            "Actions[1]",
+                            "=",
+                            "PlayerActionsEnum.Attacking"
                           ]
                         }
                       ],
@@ -51787,11 +50414,86 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Action",
+                                "=",
+                                "\"ShootInProgress\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Action",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Player",
+                                "\"ShootingTimer\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
                         }
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -51802,17 +50504,25 @@
                             "Player",
                             "Action",
                             "=",
-                            "\"ShootInProgress\""
+                            "\"Idle\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "Wait"
+                            "value": "DebuggerTools::ConsoleLog"
                           },
                           "parameters": [
-                            ".5"
+                            "\"\"",
+                            "\"info\"",
+                            "\"now idle\" "
                           ]
                         },
                         {
@@ -51821,49 +50531,42 @@
                           },
                           "parameters": [
                             "Player",
-                            "Action",
+                            "Actions[1]",
                             "=",
-                            "\"Idle\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Player",
-                            "\"ShootingTimer\""
+                            "\"\""
                           ]
                         }
                       ],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
                             {
-                              "type": {
-                                "inverted": true,
-                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
                               ]
                             }
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"AttackingStill\""
-                              ]
-                            }
-                          ]
+                          "parameters": []
                         }
                       ]
                     }
@@ -51921,56 +50624,316 @@
                       ],
                       "events": [
                         {
-                          "disabled": true,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
                             {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
                                 {
                                   "type": {
-                                    "value": "KeyFromTextPressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "\"d\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "StringObjectVariable"
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
                                     "Player",
-                                    "Action",
+                                    "Animation",
                                     "=",
-                                    "\"ShootInProgress\""
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
+                                    "value": "DebuggerTools::ConsoleLog"
                                   },
-                                  "parameters": []
+                                  "parameters": [
+                                    "\"\"",
+                                    "\"info\"",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
                                 }
                               ]
                             }
                           ],
-                          "actions": [
+                          "parameters": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
                             {
                               "type": {
-                                "value": "DebuggerTools::ConsoleLog"
+                                "value": "PlatformBehavior::IsJumping"
                               },
                               "parameters": [
-                                "\"\"",
-                                "\"info\"",
-                                "Player.Action"
+                                "Player",
+                                "PlatformerObject"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.InTheAir"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "\"\"",
+                                    "\"info\"",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsGrabbingPlatform"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "State",
+                            "=",
+                            "PlayerPositionEnum.InTheAir"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Actions[0]",
+                            "=",
+                            "PlayerActionsEnum.Grabbing"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "AllowToShoot",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "\"\"",
+                                    "\"info\"",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::IsGrabbingPlatform"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "AllowToShoot",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "\"\"",
+                                    "\"info\"",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
                         }
                       ]
                     },
@@ -52032,6 +50995,48 @@
                             "PlayerActionsEnum.Moving"
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "\"\"",
+                                    "\"info\"",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
                       ]
                     },
                     {
@@ -52075,42 +51080,47 @@
                             "PlayerActionsEnum.Idle"
                           ]
                         }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
+                      ],
+                      "events": [
                         {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "Player.State+Player.Actions[0]"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"\"",
-                            "\"info\"",
-                            "\"changing animation\"\n"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"\"",
-                            "\"info\"",
-                            "Player.Actions[0]"
-                          ]
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "UpdateAnimationPlayer",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DebuggerTools::ConsoleLog"
+                                  },
+                                  "parameters": [
+                                    "\"\"",
+                                    "\"info\"",
+                                    "Player.State+Player.Actions[0]+Player.Actions[1]"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -52327,7 +51337,7 @@
                             "Player",
                             "isHurtTimer",
                             ">",
-                            "1"
+                            "3"
                           ]
                         }
                       ],
@@ -52350,34 +51360,6 @@
                           "parameters": [
                             "Player",
                             "\"isHurtTimer\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle\""
                           ]
                         }
                       ]
@@ -53046,7 +52028,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Jump On Enemy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -53257,7 +52238,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Hurt by Objects",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -53672,7 +52652,6 @@
                   "colorG": 75,
                   "colorR": 196,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Fire Bullet",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -53850,7 +52829,6 @@
                   "colorG": 75,
                   "colorR": 196,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Fire Bullet Brocoli",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -54033,7 +53011,6 @@
                   "colorG": 2,
                   "colorR": 208,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Enemy Fairy ",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -56372,41 +55349,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Handle Change Level",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Door",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Level\"+ToString(ExtendedVariables::Variable(\"SceneNumber\")+1)",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -56481,16 +55430,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"\"",
-                        "\"info\"",
-                        "\"col\""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "LinkedObjects::PickObjectsLinkedTo"
@@ -56682,6 +55621,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
