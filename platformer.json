@@ -3271,6 +3271,54 @@
         "name": "InTheAirMovingAttacking",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "backgrounds/level2/sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgrounds\\level2\\sky.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "backgrounds/level2/far-clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgrounds\\level2\\far-clouds.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "backgrounds/level2/near-clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgrounds\\level2\\near-clouds.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "backgrounds/level2/far-mountains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgrounds\\level2\\far-mountains.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "backgrounds/level2/mountains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgrounds\\level2\\mountains.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "backgrounds/level2/trees.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgrounds\\level2\\trees.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6424,9 +6472,9 @@
       "effects": [],
       "behaviors": [
         {
-          "canGoDownFromJumpthru": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGoDownFromJumpthru": false,
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -12734,9 +12782,9 @@
           "masks": 1
         },
         {
-          "canBeGrabbed": true,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
@@ -22217,7 +22265,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1713093451124224,
+        "zoomFactor": 0.31119749424452736,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -23910,70 +23958,390 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background01",
+          "name": "BackgroundBosque",
+          "persistentUuid": "c3165398-8c83-44b1-a26a-7106d70ed814",
+          "width": 1344,
+          "x": 0,
+          "y": -144,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background02",
+          "name": "BackgroundBosque",
+          "persistentUuid": "ee918477-ac38-4ec7-9a14-c57b31e52283",
+          "width": 1344,
+          "x": 0,
+          "y": -144,
+          "zOrder": 29,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background03",
+          "name": "BackgroundBosque",
+          "persistentUuid": "47adafe6-f434-4938-95ec-5359a7b13cd1",
+          "width": 1344,
+          "x": 0,
+          "y": -144,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background04",
+          "name": "BackgroundBosque",
+          "persistentUuid": "ad4e5ac4-c1de-4f09-9682-181d53369d3b",
+          "width": 1344,
+          "x": 0,
+          "y": -144,
+          "zOrder": 31,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background05",
+          "name": "BackgroundBosque",
+          "persistentUuid": "d8bde8ac-9164-4e31-904c-b0f270b3e07c",
+          "width": 1344,
+          "x": 0,
+          "y": -144,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background06",
+          "name": "BackgroundBosque",
+          "persistentUuid": "76c76024-8d1a-4aec-b682-a6ad7c92d658",
+          "width": 1344,
+          "x": 0,
+          "y": -144,
+          "zOrder": 33,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background01",
+          "name": "BackgroundBosque",
+          "persistentUuid": "e62d0bc3-646f-4deb-ad60-91a916bed0c8",
+          "width": 1344,
+          "x": 1344,
+          "y": -144,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background02",
+          "name": "BackgroundBosque",
+          "persistentUuid": "9e6539c4-2079-4e74-8c71-13f8fd6cef39",
+          "width": 1344,
+          "x": 1344,
+          "y": -144,
+          "zOrder": 29,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background03",
+          "name": "BackgroundBosque",
+          "persistentUuid": "17d89b9a-1dd0-431f-b18f-14860de17c99",
+          "width": 1344,
+          "x": 1344,
+          "y": -144,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background04",
+          "name": "BackgroundBosque",
+          "persistentUuid": "c19d0f14-7bad-43d1-99b9-86d902442772",
+          "width": 1344,
+          "x": 1344,
+          "y": -144,
+          "zOrder": 31,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background05",
+          "name": "BackgroundBosque",
+          "persistentUuid": "e7f29a95-28fa-45f5-9344-f21d42591ad6",
+          "width": 1344,
+          "x": 1344,
+          "y": -144,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background06",
+          "name": "BackgroundBosque",
+          "persistentUuid": "50387403-d38a-4911-bf02-f5c3d0d25ce4",
+          "width": 1344,
+          "x": 1344,
+          "y": -144,
+          "zOrder": 33,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background01",
+          "name": "BackgroundBosque",
+          "persistentUuid": "abb7c88e-9b6a-4eb8-b182-31e17aebc26a",
+          "width": 1344,
+          "x": -1344,
+          "y": -144,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background02",
+          "name": "BackgroundBosque",
+          "persistentUuid": "11095548-8404-41a3-b119-f31bb50d34e9",
+          "width": 1344,
+          "x": -1344,
+          "y": -144,
+          "zOrder": 29,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background03",
+          "name": "BackgroundBosque",
+          "persistentUuid": "f4b719bd-024a-4a84-8cf4-e5c9afb4df45",
+          "width": 1344,
+          "x": -1344,
+          "y": -144,
+          "zOrder": 30,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background04",
+          "name": "BackgroundBosque",
+          "persistentUuid": "5c7ad322-63a7-4598-9ca1-a2665ed0d43b",
+          "width": 1344,
+          "x": -1344,
+          "y": -144,
+          "zOrder": 31,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background05",
+          "name": "BackgroundBosque",
+          "persistentUuid": "188eaa80-ce45-4138-929c-d9c3886d8b8d",
+          "width": 1344,
+          "x": -1344,
+          "y": -144,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1008,
+          "keepRatio": true,
+          "layer": "Background06",
+          "name": "BackgroundBosque",
+          "persistentUuid": "3ded5e31-7800-4d55-bf7e-b18caa32c824",
+          "width": 1344,
+          "x": -1344,
+          "y": -144,
+          "zOrder": 33,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Background",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "desert_b",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "bgLevel1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 1276,
-                            "y": 0
-                          },
-                          {
-                            "x": 1276,
-                            "y": 720
-                          },
-                          {
-                            "x": 0,
-                            "y": 720
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "assetStoreId": "",
           "bold": false,
@@ -24016,16 +24384,316 @@
             "lineHeight": 0,
             "color": "238;42;42"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BackgroundBosque",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Fondo01",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "backgrounds\\level2\\sky.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo02",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "backgrounds\\level2\\far-clouds.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo03",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "backgrounds\\level2\\near-clouds.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo04",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "backgrounds\\level2\\far-mountains.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "backgrounds\\level2\\mountains.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo06",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "backgrounds\\level2\\trees.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 0
+                          },
+                          {
+                            "x": 320,
+                            "y": 240
+                          },
+                          {
+                            "x": 0,
+                            "y": 240
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Background"
+            "objectName": "Debugging"
           },
           {
-            "objectName": "Debugging"
+            "objectName": "BackgroundBosque"
           }
         ]
       },
@@ -24035,11 +24703,89 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "",
+          "name": "Background, camara y parallax",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX()",
+                "\"Background06\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX()*0.9",
+                "\"Background05\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX()*0.8",
+                "\"Background04\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX()*0.7",
+                "\"Background03\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX()*0.6",
+                "\"Background02\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraCenterX()*0.5",
+                "\"Background01\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -26455,7 +27201,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Background",
+          "name": "Background01",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -26474,6 +27220,271 @@
                 "top": "Y-"
               },
               "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background02",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background03",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background04",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background05",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background06",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
             }
           ]
         },
@@ -87699,25 +88710,7 @@
     {
       "associatedLayout": "Level0",
       "name": "BackgroundUI",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 753,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "Background",
-          "persistentUuid": "d06f5d47-32ae-42d2-a1da-bb9d6b6457b8",
-          "width": 2058,
-          "x": -321,
-          "y": -2,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
+      "instances": [],
       "editionSettings": {
         "grid": false,
         "gridType": "rectangular",
