@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 242,
+    "build": 243,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -4161,6 +4161,28 @@
         "name": "batalla_final\\black.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -19652,6 +19674,54 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "TextPause",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Pause",
+      "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+      "textAlignment": "center",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pause",
+        "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -19672,6 +19742,9 @@
       {
         "folderName": "UI",
         "children": [
+          {
+            "objectName": "TextPause"
+          },
           {
             "objectName": "TextScore"
           },
@@ -20247,7 +20320,8 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.30104611971825446,
-        "windowMask": true
+        "windowMask": true,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -23934,7 +24008,8 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.32169117647060397,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -23950,6 +24025,11 @@
         },
         {
           "name": "Boom",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "pausado",
           "type": "number",
           "value": 0
         }
@@ -24822,6 +24902,22 @@
           "x": 4416,
           "y": 0,
           "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextPause",
+          "persistentUuid": "219331ed-2d2c-421f-a2e8-c291259f59e9",
+          "width": 0,
+          "x": 495,
+          "y": 288,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32785,7 +32881,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1713093451124224,
+        "zoomFactor": 0.6455105703311623,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -32793,6 +32889,11 @@
       "variables": [
         {
           "name": "SceneNumber",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "pausado",
           "type": "number",
           "value": 0
         }
@@ -34476,6 +34577,22 @@
           "x": 3552,
           "y": -1344,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextPause",
+          "persistentUuid": "c6974d68-1568-4a18-bf33-7afde32bab5c",
+          "width": 0,
+          "x": 545,
+          "y": 252,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37213,7 +37330,8 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.30104611971825634,
-        "windowMask": true
+        "windowMask": true,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -37221,6 +37339,11 @@
           "name": "SceneNumber",
           "type": "number",
           "value": 2
+        },
+        {
+          "name": "pausado",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -39802,6 +39925,22 @@
           "x": 6528,
           "y": -3456,
           "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextPause",
+          "persistentUuid": "89425121-5bf8-45db-81be-e4c4f212035d",
+          "width": 0,
+          "x": 510,
+          "y": 324,
+          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42496,8 +42635,9 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.31119749424453186,
-        "windowMask": true
+        "zoomFactor": 0.511778403521037,
+        "windowMask": true,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -42505,6 +42645,11 @@
           "name": "SceneNumber",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "pausado",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -47015,6 +47160,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextPause",
+          "persistentUuid": "2bea2acd-9ee0-48c0-be73-dd4647ba4361",
+          "width": 0,
+          "x": 545,
+          "y": 348,
+          "zOrder": 151,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -49632,7 +49793,8 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.23867758270258588,
-        "windowMask": true
+        "windowMask": true,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -49640,6 +49802,11 @@
           "name": "SceneNumber",
           "type": "number",
           "value": 2
+        },
+        {
+          "name": "pausado",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -49908,6 +50075,22 @@
           "x": 4032,
           "y": 1248,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "TextPause",
+          "persistentUuid": "40d8ddc5-3a3d-4c7e-b6ee-7910b0b60be4",
+          "width": 0,
+          "x": 540,
+          "y": 324,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -53484,7 +53667,13 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "pausado",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [],
       "objects": [],
       "objectsFolderStructure": {
@@ -63139,6 +63328,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "GamePlay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -70322,9 +70512,190 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pause"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TextPause",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"p\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "pausado",
+                "Toggle",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "pausado",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TextPause",
+                "Tween",
+                "\"mostrarPAUSE\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.2",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TextPause",
+                "Tween",
+                "\"mostrarPAUSE\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "pausado",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TextPause",
+                "Tween",
+                "\"esconderPAUSE\"",
+                "0",
+                "\"easeOutQuad\"",
+                "0.2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TextPause",
+                "Tween",
+                "\"esconderPAUSE\""
+              ]
+            }
+          ]
         }
       ]
     }
@@ -97136,6 +97507,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -98612,7 +98984,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 256,
@@ -98926,7 +99299,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -100962,6 +101336,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -102161,7 +102536,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 143,
@@ -102319,7 +102695,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -105941,7 +106318,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.2090255622833524,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       }
     },
     {
