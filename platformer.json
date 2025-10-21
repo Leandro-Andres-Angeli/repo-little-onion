@@ -4183,6 +4183,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/NewSprite49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16659,7 +16667,13 @@
       "name": "PlayerInitialPosition",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "PlayerInitialPosition",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -19722,6 +19736,73 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Checkpoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "state",
+          "type": "string",
+          "value": "\"inactive\""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -19768,6 +19849,9 @@
       {
         "folderName": "GameObjects",
         "children": [
+          {
+            "objectName": "Checkpoint"
+          },
           {
             "objectName": "PlayerInitialPosition"
           },
@@ -32881,7 +32965,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6455105703311623,
+        "zoomFactor": 0.2467258695740688,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -32896,6 +32980,22 @@
           "name": "pausado",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "LastCheckpoint",
+          "type": "structure",
+          "children": [
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "instances": [
@@ -34596,6 +34696,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "5a265008-10b9-4085-9689-7aa098106cc7",
+          "width": 96,
+          "x": 4032,
+          "y": -1632,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "3345dea8-866e-49f8-8157-c72bd698a040",
+          "width": 96,
+          "x": 576,
+          "y": -96,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -34702,6 +34836,17 @@
             "lineHeight": 0,
             "color": "238;42;42"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -34712,6 +34857,9 @@
           },
           {
             "objectName": "Debugging"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -63328,7 +63476,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "GamePlay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -65660,7 +65807,6 @@
                   "colorG": 121,
                   "colorR": 252,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bullet Collision\n",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -66365,24 +66511,27 @@
                             },
                             {
                               "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "MettreXY"
                               },
                               "parameters": [
                                 "Player",
                                 "=",
-                                "PlayerInitialPosition.X()",
+                                "Checkpoint.X()",
                                 "=",
-                                "PlayerInitialPosition.Y()"
+                                "Checkpoint.Y()"
                               ]
                             }
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -66400,14 +66549,6 @@
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            ".3"
-                          ]
-                        },
                         {
                           "type": {
                             "value": "SetStringObjectVariable"
@@ -66556,6 +66697,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Jump On Enemy",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -66766,6 +66908,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Hurt by Objects",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -70234,6 +70377,7 @@
               "colorG": 190,
               "colorR": 253,
               "creationTime": 0,
+              "folded": true,
               "name": "GranTomate",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -70512,190 +70656,323 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Pause"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Pause",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextPause",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"p\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "pausado",
+                    "Toggle",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pausado",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "TextPause",
+                    "Tween",
+                    "\"mostrarPAUSE\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "0.2",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "TextPause",
+                    "Tween",
+                    "\"mostrarPAUSE\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "pausado",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "TextPause",
+                    "Tween",
+                    "\"esconderPAUSE\"",
+                    "0",
+                    "\"easeOutQuad\"",
+                    "0.2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "TextPause",
+                    "Tween",
+                    "\"esconderPAUSE\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "TextPause",
-                "Opacity",
-                "=",
-                "0"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Checkpoints",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "KeyFromTextJustPressed"
-              },
-              "parameters": [
-                "",
-                "\"p\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PlayerInitialPosition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Checkpoint"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Checkpoint",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Checkpoint",
+                    "state",
+                    "=",
+                    "\"active\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ExtendedVariables::ModifySceneVariable"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LastCheckpoint.x\"",
+                    "Checkpoint.X()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ExtendedVariables::ModifySceneVariable"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LastCheckpoint.y\"",
+                    "Checkpoint.Y()",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Checkpoint",
+                        "state",
+                        "=",
+                        "\"active\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Checkpoint",
+                        "state",
+                        "=",
+                        "\"inactive\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "pausado",
-                "Toggle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pausado",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "TextPause",
-                "Tween",
-                "\"mostrarPAUSE\"",
-                "255",
-                "\"easeOutQuad\"",
-                "0.2",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveTween"
-              },
-              "parameters": [
-                "TextPause",
-                "Tween",
-                "\"mostrarPAUSE\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pausado",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "TextPause",
-                "Tween",
-                "\"esconderPAUSE\"",
-                "0",
-                "\"easeOutQuad\"",
-                "0.2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveTween"
-              },
-              "parameters": [
-                "TextPause",
-                "Tween",
-                "\"esconderPAUSE\""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ]
     }
@@ -106275,6 +106552,345 @@
               "description": "Generator name",
               "name": "Name",
               "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Elairyx, @Bouh",
+      "category": "Game mechanic",
+      "extensionNamespace": "",
+      "fullName": "Checkpoints",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYWctdmFyaWFudCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik02LDNBMSwxIDAgMCwxIDcsNFY0Ljg4QzguMDYsNC40NCA5LjUsNCAxMSw0QzE0LDQgMTQsNiAxNiw2QzE5LDYgMjAsNCAyMCw0VjEyQzIwLDEyIDE5LDE0IDE2LDE0QzEzLDE0IDEzLDEyIDExLDEyQzgsMTIgNywxNCA3LDE0VjIxSDVWNEExLDEgMCAwLDEgNiwzWiIgLz48L3N2Zz4=",
+      "name": "Checkpoints",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg",
+      "shortDescription": "Respawn objects at checkpoints.",
+      "version": "1.0.2",
+      "description": [
+        "This extension can save checkpoints and respawn objects at the last one.",
+        "",
+        "The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer))."
+      ],
+      "origin": {
+        "identifier": "Checkpoints",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "position",
+        "checkpoint"
+      ],
+      "authorIds": [
+        "30b1QQoYi1gQQHzIjMlNY8aLyYV2",
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Update a checkpoint of an object.",
+          "fullName": "Save checkpoint",
+          "functionType": "Action",
+          "name": "SaveCheckpoint",
+          "sentence": "Save checkpoint _PARAM4_ of _PARAM1_ to _PARAM2_ (x-axis), _PARAM3_ (y-axis)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ToSaveObject",
+                    "__Checkpoints.Position[\"X\"+CheckpointName]",
+                    "=",
+                    "CoordinateX"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ToSaveObject",
+                    "__Checkpoints.Position[\"Y\"+CheckpointName]",
+                    "=",
+                    "CoordinateY"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Save checkpoint of object",
+              "name": "ToSaveObject",
+              "type": "objectList"
+            },
+            {
+              "description": "X position",
+              "name": "CoordinateX",
+              "type": "expression"
+            },
+            {
+              "description": "Y position",
+              "name": "CoordinateY",
+              "type": "expression"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the position of the object to the saved checkpoint.",
+          "fullName": "Load checkpoint",
+          "functionType": "Action",
+          "name": "LoadCheckpoint",
+          "sentence": "Move _PARAM2_ to checkpoint _PARAM3_ of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableChildExists"
+                          },
+                          "parameters": [
+                            "ToLoadObject",
+                            "__Checkpoints.Position",
+                            "\"X\" + CheckpointName"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableChildExists"
+                          },
+                          "parameters": [
+                            "ToLoadObject",
+                            "__Checkpoints.Position",
+                            "\"Y\" + CheckpointName"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "SetIgnoreUndefined",
+                            "!=",
+                            "\"true\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ObjectVariableChildExists"
+                              },
+                              "parameters": [
+                                "ToLoadObject",
+                                "__Checkpoints.Position",
+                                "\"Y\" + CheckpointName"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ObjectVariableChildExists"
+                              },
+                              "parameters": [
+                                "ToLoadObject",
+                                "__Checkpoints.Position",
+                                "\"X\" + CheckpointName"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "ToMoveObject",
+                    "=",
+                    "ToLoadObject.Variable(__Checkpoints.Position[\"X\" + CheckpointName])",
+                    "=",
+                    "ToLoadObject.Variable(__Checkpoints.Position[\"Y\" + CheckpointName])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Load checkpoint from object",
+              "name": "ToLoadObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Change position of object",
+              "name": "ToMoveObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            },
+            {
+              "description": "Ignore (possibly) empty checkpoints",
+              "longDescription": "Loading not yet saved checkpoints will (by default) set the position to the coordinate 0;0. Select \"yes\" to completely ignore non-existant checkpoints. To define an alternative checkpoint for it, create a new event and use the \"Checkpoint exists\" condition, save the wanted checkpoint as the action.",
+              "name": "SetIgnoreUndefined",
+              "supplementaryInformation": "[\"Set to 0\",\"Ignore\",\"Reset to initial position\"]",
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a checkpoint has a position saved / does exist.",
+          "fullName": "Checkpoint exists",
+          "functionType": "Condition",
+          "name": "CheckpointExist",
+          "sentence": "Checkpoint _PARAM2_ of _PARAM1_ exists",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableChildExists"
+                  },
+                  "parameters": [
+                    "ToCheckObject",
+                    "__Checkpoints.Position",
+                    "\"Y\" + CheckpointName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableChildExists"
+                  },
+                  "parameters": [
+                    "ToCheckObject",
+                    "__Checkpoints.Position",
+                    "\"X\" + CheckpointName"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "ToCheckObject",
+                        "__Checkpoints.Position",
+                        "\"X\" + CheckpointName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "ToCheckObject",
+                        "__Checkpoints.Position",
+                        "\"Y\" + CheckpointName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Check checkpoint from object",
+              "name": "ToCheckObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
             }
           ],
           "objectGroups": []
