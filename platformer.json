@@ -4649,6 +4649,38 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Gumblar--.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gumblar--.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "NivelGumblar3.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "NivelGumblar3.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Tiles-Gumblar-64x66.json",
+        "kind": "tileset",
+        "metadata": "",
+        "name": "Tiles-Gumblar-64x66.json",
+        "userAdded": false
+      },
+      {
+        "file": "TilesGumblar64x66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TilesGumblar64x66.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -50780,8 +50812,8 @@
     {
       "b": 20,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level3",
-      "name": "Level3",
+      "mangledName": "Level3Gumblar",
+      "name": "Level3Gumblar",
       "r": 20,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -50797,7 +50829,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.23867758270258588,
+        "zoomFactor": 0.3553434558817127,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -50807,11 +50839,6 @@
           "name": "SceneNumber",
           "type": "number",
           "value": 2
-        },
-        {
-          "name": "pausado",
-          "type": "number",
-          "value": 0
         }
       ],
       "instances": [
@@ -50824,8 +50851,8 @@
           "name": "Player",
           "persistentUuid": "7f99f942-cf7c-48a6-b3cd-f0b0903a6cdd",
           "width": 0,
-          "x": 672,
-          "y": 1056,
+          "x": 2,
+          "y": 419,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -50834,13 +50861,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 5,
-          "height": 1344,
-          "keepRatio": true,
+          "depth": 3.1746031746031744,
+          "height": 720,
           "layer": "Background",
           "name": "Background1",
           "persistentUuid": "ee5446a3-9407-4ba3-b4b3-7d41c7c789c8",
-          "width": 2016,
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": 15,
@@ -50850,17 +50876,418 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1536,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "a5ee6542-724f-4453-9c7a-310ea8a3551d",
-          "width": 288,
+          "name": "MapaDeGumblar__",
+          "persistentUuid": "93f59196-85b7-4a43-9381-2def92dee4c5",
+          "width": 0,
           "x": -192,
+          "y": -2240,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMapa",
+          "persistentUuid": "e5469fc5-6c00-4277-9606-26354640815c",
+          "width": 0,
+          "x": -192,
+          "y": -2239,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "fe432ccb-9432-44da-9924-925f0f9944ed",
+          "width": 0,
+          "x": 96,
+          "y": 288,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "3c5cd7ab-e60d-4452-a267-afeee450057f",
+          "width": 0,
+          "x": 496,
+          "y": 304,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "18e4ef74-1693-485b-9728-3a1d74442b17",
+          "width": 0,
+          "x": 400,
+          "y": 208,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "069a96e8-1515-4c95-8cd0-96fa5d391f9a",
+          "width": 0,
+          "x": 304,
+          "y": 304,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c725cea1-7d84-4b06-aaa3-3416c9f4eceb",
+          "width": 0,
+          "x": 208,
+          "y": 400,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b9c71dda-5cfc-4ee2-9b0f-edda6cc45bd7",
+          "width": 0,
+          "x": 592,
+          "y": 400,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "2c9fc04c-96d3-4f08-b1a0-94a902d4c8c1",
+          "width": 0,
+          "x": 784,
+          "y": 400,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "cbc87688-e951-42c0-b3b7-16c9fa75b793",
+          "width": 0,
+          "x": 688,
+          "y": 304,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "e11e41e9-61d6-45ce-8403-7ad2c7ca408c",
+          "width": 0,
+          "x": 16,
+          "y": 400,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "311e6185-66c1-49af-8ed3-89eec7483a76",
+          "width": 0,
+          "x": 1537,
+          "y": 577,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "a42f31a5-77b4-4398-9f01-cad9b87bc27b",
+          "width": 0,
+          "x": 1441,
+          "y": 577,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "93e6b981-ec76-48ca-8589-01de9056ecf4",
+          "width": 0,
+          "x": 1345,
+          "y": 577,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "e30e06ca-f6e2-4a8b-a450-506749f1fbc4",
+          "width": 0,
+          "x": 1249,
+          "y": 577,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "370e1598-be09-4309-9ac4-88c8782a1741",
+          "width": 0,
+          "x": 2224,
+          "y": 496,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "db2585dc-6026-4259-a0e1-0f450cc430d6",
+          "width": 0,
+          "x": 2320,
+          "y": 400,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "28c77aa2-86a9-4fed-b985-ab5b3d8390da",
+          "width": 0,
+          "x": 2512,
+          "y": 592,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "5ce2afd5-be82-4c97-838a-313639ea137b",
+          "width": 0,
+          "x": 2128,
+          "y": 592,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "ed4ec719-ab9d-4cbe-a8df-a80c305206a4",
+          "width": 0,
+          "x": 2689,
+          "y": 481,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "f538c6b1-e29e-484d-a1ce-b4c144c2998b",
+          "width": 0,
+          "x": 2785,
+          "y": 481,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "50d6830c-1b57-47e7-b7a5-1220bff367fe",
+          "width": 0,
+          "x": 3371,
+          "y": 615,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b4b5c763-7e2b-4e92-a1ae-8d8c6bb30dfb",
+          "width": 0,
+          "x": 3286,
+          "y": 718,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "921269e0-3b81-41ef-b86d-c1163f5aaa62",
+          "width": 0,
+          "x": 3169,
+          "y": 481,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "45850e70-e841-4984-8d7c-4293e0fcc17c",
+          "width": 96,
+          "x": 1824,
           "y": 0,
-          "zOrder": 18,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "9fda6a44-befd-4ab3-a585-c3c830918429",
+          "width": 96,
+          "x": 1440,
+          "y": 0,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -50872,12 +51299,541 @@
           "height": 192,
           "keepRatio": true,
           "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "0626d044-e354-405e-ae27-1ec2dbc5501f",
-          "width": 2016,
-          "x": 96,
-          "y": 1344,
-          "zOrder": 18,
+          "name": "LeftTrigger",
+          "persistentUuid": "cea8b29b-3aa3-4b11-bab7-3b4acc0749a1",
+          "width": 96,
+          "x": 1728,
+          "y": 384,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "af3df1f5-a9ac-412b-9795-288aee640d7c",
+          "width": 96,
+          "x": 960,
+          "y": 384,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "83363734-a586-4f65-b4bc-33c724696000",
+          "width": 0,
+          "x": 2416,
+          "y": 496,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "ffadf30c-c239-4ac3-a29e-e6507115690b",
+          "width": 0,
+          "x": 2881,
+          "y": 481,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "c2d0f02a-0cb7-4c1f-83c7-6485c1f49096",
+          "width": 0,
+          "x": 1248,
+          "y": 0,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "1bf35c84-4f2b-48ce-afd8-30286ff7bb67",
+          "width": 0,
+          "x": 960,
+          "y": 0,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "ed8e814e-2911-4ca0-a19f-bf0fe42107c2",
+          "width": 0,
+          "x": 769,
+          "y": 1,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "6c0c5c71-bffe-41c8-a9d5-87969b923c24",
+          "width": 0,
+          "x": 864,
+          "y": -96,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "12c26123-faed-46cb-8e1b-0a9e408d9921",
+          "width": 0,
+          "x": 672,
+          "y": -96,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "01fa92c3-cba0-4e72-8353-38217f4a934a",
+          "width": 0,
+          "x": 576,
+          "y": -96,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "bface45f-caf9-4353-b2e9-dbe2eb515f51",
+          "width": 0,
+          "x": 289,
+          "y": -191,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "52141c21-4596-4ee6-bb5e-3a602e761fc3",
+          "width": 0,
+          "x": 385,
+          "y": -95,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "40f037d7-7371-4124-8889-31c0143ac13c",
+          "width": 0,
+          "x": 1552,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "070a10c6-73b0-4b00-8d3e-2382229b597f",
+          "width": 0,
+          "x": 1456,
+          "y": 112,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "afb0b2df-204d-42dc-85c4-25cad7f34c32",
+          "width": 0,
+          "x": 1744,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c1a29ebf-8c0d-4fa7-b61c-e8c8aadb2ca4",
+          "width": 0,
+          "x": 1648,
+          "y": 112,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "ec599670-bed3-4f7a-9970-869c315772d4",
+          "width": 0,
+          "x": 1936,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "38285c61-de20-4219-b13a-c3e963b628d7",
+          "width": 0,
+          "x": 1840,
+          "y": 112,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "ec857ccd-519c-470c-b374-c955a7fb77f4",
+          "width": 0,
+          "x": 2032,
+          "y": 112,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "d0e8e6bf-a06b-4f49-a71b-6a7a748cc184",
+          "width": 0,
+          "x": 2224,
+          "y": -80,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "92ad22d7-ee7c-40f8-a931-2eb3c01bc597",
+          "width": 0,
+          "x": 2128,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c55a6fc7-1002-4434-9eae-a849378679fa",
+          "width": 0,
+          "x": 2320,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "10c78b37-c776-45fb-827c-1adf0399a686",
+          "width": 0,
+          "x": 2416,
+          "y": -80,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "59fe1555-aad6-4b16-85e6-a70355753bfa",
+          "width": 0,
+          "x": 2512,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b7661f45-316a-42a3-8abc-e18810f54d1f",
+          "width": 0,
+          "x": 2608,
+          "y": 112,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "e9691924-514d-4d44-bec6-79c041e1011d",
+          "width": 0,
+          "x": 2704,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "78f3fc9e-b1ed-429b-b1d3-9da8b20caa22",
+          "width": 0,
+          "x": 2800,
+          "y": 112,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "9bdc646d-b627-4e65-a860-886c1cc13dd2",
+          "width": 0,
+          "x": 2896,
+          "y": 16,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "de67ff64-8e7d-4f51-a1bd-c080ca90fced",
+          "width": 0,
+          "x": 3168,
+          "y": 384,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "9a84cc5a-7fa3-40c7-98c5-78f3faa27e6a",
+          "width": 0,
+          "x": 3168,
+          "y": 288,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "70e9bd4c-fe47-4e1d-be22-5a031753facb",
+          "width": 0,
+          "x": 3168,
+          "y": 192,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "2d2244e8-b425-4ed1-a60a-0c2d9b95e300",
+          "width": 0,
+          "x": 3168,
+          "y": 96,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "3f4c92ea-7b60-492b-8767-bdb1b8860a8f",
+          "width": 0,
+          "x": 3169,
+          "y": 1,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "b2bfafab-e0f9-45d7-be3d-31f3f771d23f",
+          "width": 0,
+          "x": 3169,
+          "y": -95,
+          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -50889,148 +51845,12 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "f194ddb6-9ece-432e-8582-efe18face016",
-          "width": 2016,
-          "x": 96,
-          "y": 1248,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "6d5198d5-5c53-4656-9bf3-9c55a8ccd0c0",
-          "width": 960,
-          "x": 5568,
-          "y": 1344,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "80695fb5-407d-4312-8548-71f74077415d",
-          "width": 960,
-          "x": 2112,
-          "y": 1344,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 384,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "9799eaba-340a-4f91-b4ba-fc89fe0fdbdc",
-          "width": 960,
-          "x": 8640,
-          "y": 1152,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 288,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "df295bdd-5bf9-4cff-9aed-51fe5b501f60",
-          "width": 768,
-          "x": 3072,
-          "y": 1248,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "88b4434f-7315-4172-b7a4-8900ee70e65a",
-          "width": 960,
-          "x": 3840,
-          "y": 1344,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 288,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "334e4b70-8930-451b-91fa-1ad2a9131064",
-          "width": 768,
-          "x": 4800,
-          "y": 1248,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 288,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "62e3092d-0f86-4521-b613-ba84611d4439",
-          "width": 768,
-          "x": 6528,
-          "y": 1248,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 384,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "5250bec9-fc1e-49be-aec0-b1ef4d9ba4a1",
+          "name": "UpTrigger",
+          "persistentUuid": "0a78f47f-f138-4bf6-a12f-0ed8e4dca9c7",
           "width": 384,
-          "x": 7296,
-          "y": 1152,
-          "zOrder": 19,
+          "x": 3072,
+          "y": 864,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51039,15 +51859,49 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 288,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "BlueTile",
-          "persistentUuid": "19ee51d3-1071-40cc-9ace-f4838fc82ad1",
-          "width": 960,
-          "x": 7680,
-          "y": 1248,
-          "zOrder": 19,
+          "name": "DownTrigger",
+          "persistentUuid": "45cb6a18-6501-49fd-9019-a569451042f5",
+          "width": 384,
+          "x": 3072,
+          "y": -96,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "9183db37-9749-4e0d-a784-5b4da3fd2df2",
+          "width": 96,
+          "x": 2496,
+          "y": 480,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "e200d1a5-2b96-4986-ab2b-f484ddd6d240",
+          "width": 96,
+          "x": 2112,
+          "y": 480,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51058,12 +51912,1580 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Ghost",
-          "persistentUuid": "129db2b1-f50c-440b-86ee-73d3b514a253",
+          "name": "GreenCoin",
+          "persistentUuid": "783c735f-4daa-4107-8cea-dc0438478d7f",
+          "width": 0,
+          "x": 2881,
+          "y": -671,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "18e98832-351a-4c45-998f-6bcfa7690fe9",
+          "width": 0,
+          "x": 976,
+          "y": -656,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "6c641a8c-4a3e-486b-807e-ab403c9cab44",
+          "width": 0,
+          "x": 3169,
+          "y": -575,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "ad9c22c8-f22f-4216-9171-a6dda6276414",
+          "width": 0,
+          "x": 2496,
+          "y": -864,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "5ea4692e-670f-43dd-9dba-99a3fb508712",
+          "width": 0,
+          "x": 2496,
+          "y": -960,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "270c8d71-e5bc-4171-a3a6-1490b26f4b57",
+          "width": 0,
+          "x": 2496,
+          "y": -1056,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "67151457-813a-4fd7-8be4-5c1ca8345740",
+          "width": 0,
+          "x": 2496,
+          "y": -1152,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "7ee5f80c-e7f9-43d1-bedc-2551ea15ef15",
+          "width": 0,
+          "x": 2497,
+          "y": -1247,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "82e773b9-363d-46e9-ad57-1de55ab4afe4",
+          "width": 0,
+          "x": 2497,
+          "y": -1343,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UpTrigger",
+          "persistentUuid": "d5f4fc70-aff5-49c8-84f1-9ff800f2dfc8",
+          "width": 384,
+          "x": 2400,
+          "y": -384,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DownTrigger",
+          "persistentUuid": "ff015a41-4c4e-4616-b612-f3ed36981069",
+          "width": 384,
+          "x": 2400,
+          "y": -1344,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "ColisionMapa",
+          "persistentUuid": "fc5e9d6c-d39d-466c-95e9-fba102bae151",
+          "sealed": true,
+          "width": 0,
+          "x": -192,
+          "y": -2222,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "2179ac52-028f-4c75-9542-fef839bc503e",
+          "width": 0,
+          "x": 880,
+          "y": -560,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "1d34df6d-1616-484d-88ae-846c45c537dd",
+          "width": 0,
+          "x": 784,
+          "y": -656,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b8f4e3e2-d804-49ff-a9da-f285574ff254",
+          "width": 0,
+          "x": 688,
+          "y": -560,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "adc1baf0-8ff8-4e4e-a17d-7cddf8ed4468",
+          "width": 0,
+          "x": 1241,
+          "y": -656,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "200521f2-4551-4e04-9b62-63f22b168311",
+          "width": 0,
+          "x": 1241,
+          "y": -752,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b1cda738-0882-47dc-b47d-5af1f58fb134",
+          "width": 0,
+          "x": 1570,
+          "y": -656,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "d652f6aa-ad01-4c6f-b831-21b736f03ac7",
+          "width": 0,
+          "x": 1572,
+          "y": -752,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "b9922f4d-b848-4f8a-9590-0d1bb1393533",
+          "width": 0,
+          "x": 1823,
+          "y": -603,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "83dcc62e-17c6-46a0-852a-aaceaf1513e2",
+          "width": 0,
+          "x": 1824,
+          "y": -715,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "ef1c9045-c785-407d-a476-6636b5ae16da",
+          "width": 0,
+          "x": 2082,
+          "y": -560,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "95b00bac-e1f9-4a59-86ec-f00f2f7358a7",
+          "width": 0,
+          "x": 2081,
+          "y": -656,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "8d658c17-6629-4920-9363-9e2a15ab7c97",
+          "width": 96,
+          "x": 1728,
+          "y": -384,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "67d10486-1672-4315-a032-56dd25d392d0",
+          "width": 96,
+          "x": 960,
+          "y": -384,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "6d1ebe13-5925-4b8c-a68c-cbc1b8a028be",
+          "width": 96,
+          "x": 192,
+          "y": 480,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "6fe4a491-27d4-4669-8120-afe2c97f3679",
+          "width": 96,
+          "x": 864,
+          "y": 480,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "d94db616-21e4-44e3-9c20-34341b74b725",
+          "width": 0,
+          "x": 2896,
+          "y": -1136,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "fd07f341-74b3-4477-8153-7c57c0478535",
+          "width": 0,
+          "x": 3088,
+          "y": -1136,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "5ddfa58e-3466-4ce9-8699-ee1b492540a5",
+          "width": 0,
+          "x": 2992,
+          "y": -1040,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "5ddb4524-fdd4-4346-85f0-570b093b508d",
+          "width": 0,
+          "x": 2800,
+          "y": -1040,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "feae9f1e-0573-4214-974a-b86e86ca816b",
+          "width": 0,
+          "x": 3184,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "cb131fb6-01f8-4252-8174-fdeb0c41af5f",
+          "width": 0,
+          "x": 3280,
+          "y": -1328,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "20b3409c-1ca1-4215-9fdb-c61d89da27d9",
+          "width": 0,
+          "x": 2224,
+          "y": -1136,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "841d5d03-2df2-4d3b-8557-992ffe344ec9",
+          "width": 0,
+          "x": 2320,
+          "y": -1136,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "bf689608-90a6-4ee5-981b-f350cd5379af",
+          "width": 0,
+          "x": 3376,
+          "y": -1424,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "768738b6-49f9-4f4b-bfc4-158c132a6f90",
+          "width": 0,
+          "x": 2032,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "f0f54e92-b0f7-4145-8de9-2a010e5aa8ab",
+          "width": 0,
+          "x": 1936,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "13f26591-e327-4e97-904f-7926fd25914b",
+          "width": 0,
+          "x": 1840,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "2e715c42-359a-486c-9434-33c23ccf4046",
+          "width": 0,
+          "x": 1744,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "db0d243f-d3e3-4315-ad0a-1339fa2ed58a",
+          "width": 0,
+          "x": 1648,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "4f1a2939-3bb2-4178-874b-75b690363ece",
+          "width": 0,
+          "x": 1552,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "e7f6eb10-203d-4b3d-b0fd-51acd0e503bf",
+          "width": 0,
+          "x": 1456,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "50b1e969-8169-467c-a6f5-c77e85cd7d84",
+          "width": 0,
+          "x": 1360,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "27330498-9d02-430f-9988-7843a3c01018",
+          "width": 0,
+          "x": 1264,
+          "y": -1232,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "cd89834c-4316-4fb2-be6c-72266f73043e",
+          "width": 0,
+          "x": 960,
+          "y": -1248,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "4b27679b-86d6-4f7c-af52-46b936888432",
+          "width": 0,
+          "x": 865,
+          "y": -1247,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "efc0febe-d91c-4789-ae4f-c4417289c428",
+          "width": 0,
+          "x": 769,
+          "y": -1151,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "3fbbb7b7-4c2c-4a65-9469-43960ffda420",
+          "width": 0,
+          "x": 673,
+          "y": -1151,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "c98d9e59-3e55-4300-b05a-77f80e2add63",
+          "width": 0,
+          "x": 193,
+          "y": -1439,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "933d81d0-1c42-4f0c-9fd5-29e7ed90a58f",
+          "width": 0,
+          "x": 193,
+          "y": -1343,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "341245ca-275d-4005-b44d-f147a73ee8c5",
+          "width": 0,
+          "x": 193,
+          "y": -1247,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "a9459fb6-fd2f-4f2b-a7ec-876acdb7f5a4",
+          "width": 0,
+          "x": 193,
+          "y": -1535,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "9b8d6ff4-2a5f-4ef2-b59a-08b8f24ac417",
+          "width": 0,
+          "x": 193,
+          "y": -1631,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "64804376-773c-4ab1-ad24-c6a941c620c8",
+          "width": 0,
+          "x": 193,
+          "y": -1727,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "cc47cbbe-20f0-48e4-81e8-47827745f093",
+          "width": 0,
+          "x": 193,
+          "y": -1823,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "be06d4bc-8e1d-4390-b65c-122102357f1a",
+          "width": 0,
+          "x": 193,
+          "y": -1919,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "40d2a961-64f7-400d-a58f-3ce04ace23fb",
+          "width": 0,
+          "x": 193,
+          "y": -2015,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DownTrigger",
+          "persistentUuid": "dc3c516e-6328-4c0f-8194-6983f185572c",
+          "width": 384,
+          "x": 96,
+          "y": -2016,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "6ee2cc33-d791-4f82-9a47-6ccfd543aeb4",
+          "width": 0,
+          "x": 492,
+          "y": -2014,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "be3cb805-8502-40b3-b5b2-dcdcfa41d467",
+          "width": 0,
+          "x": 587,
+          "y": -2015,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "a7547ff0-ff49-451f-a84e-85fca2ab4867",
+          "width": 0,
+          "x": 688,
+          "y": -1904,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "9e686555-d483-466a-ab28-9483d988a037",
+          "width": 0,
+          "x": 784,
+          "y": -1808,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "acff6836-779b-4c72-b038-7b0d5650130f",
+          "width": 0,
+          "x": 880,
+          "y": -1808,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "f6aba750-3dd7-4a6d-aabd-284b1d178ff3",
+          "width": 0,
+          "x": 1264,
+          "y": -1808,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "ca0d4031-f52c-4b73-a6ff-1cd27e1f578d",
+          "width": 0,
+          "x": 1360,
+          "y": -1904,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "c82cbf9d-6731-46f9-bcc7-3f375a79f5c4",
+          "width": 0,
+          "x": 1456,
+          "y": -1808,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "087dc0fe-aa38-4efd-8a3e-348513da0466",
+          "width": 0,
+          "x": 1825,
+          "y": -1823,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "6d5f471a-9b5f-4da1-a8c6-fe8ffb28be72",
+          "width": 0,
+          "x": 1921,
+          "y": -1919,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "598a0a80-cbc7-440a-b528-4f24e75fa470",
+          "width": 0,
+          "x": 2017,
+          "y": -1823,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "8d3ff892-39b3-4fb4-b0cf-636605faea34",
+          "width": 0,
+          "x": 2113,
+          "y": -1919,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "f697430d-05ee-4c92-a5f5-d76e7e86c1fb",
+          "width": 0,
+          "x": 2209,
+          "y": -1823,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "be03d83f-f188-4e67-8a48-1c4b8bc65efa",
+          "width": 0,
+          "x": 2305,
+          "y": -1919,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "7058c7d8-c806-4e8c-8384-a66be704c989",
+          "width": 0,
+          "x": 2401,
+          "y": -2015,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "b5d86c31-afb4-40f9-8f93-99b72eea9818",
+          "width": 0,
+          "x": 2497,
+          "y": -1919,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "7a842a48-9882-4ca5-8df8-42a7e631c9b1",
+          "width": 0,
+          "x": 2593,
+          "y": -2015,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "ee5f3db4-1505-40cd-beec-c8597a37d804",
+          "width": 0,
+          "x": 2689,
+          "y": -1919,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UpTrigger",
+          "persistentUuid": "36e71ff8-0cff-42d5-ae2f-85a8dfe6160b",
+          "width": 384,
+          "x": 96,
+          "y": -960,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatformVertical",
+          "persistentUuid": "68da47c0-7ddc-4ebb-998d-fc0b10a24b1a",
+          "width": 0,
+          "x": 192,
+          "y": -1152,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "8e4e4dc1-593b-4407-bb42-f0440a0b7d80",
+          "width": 0,
+          "x": 1056,
+          "y": 864,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "d20b03f7-5e02-4d98-a8dc-91558447129b",
+          "width": 0,
+          "x": 960,
+          "y": 864,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "497d30de-7867-40ac-9c5b-efea2205809e",
+          "width": 0,
+          "x": 1824,
+          "y": 864,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "8e32fbfc-c96e-42ba-ae91-6f8ec1551bcc",
+          "width": 0,
+          "x": 1920,
+          "y": 864,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "a12bcac9-39ae-4672-a1d8-45bb4067672c",
+          "width": 0,
+          "x": 864,
+          "y": 864,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatformVertical",
+          "persistentUuid": "9a855b44-f496-4809-aa18-210622e781ce",
+          "width": 0,
+          "x": 2496,
+          "y": -576,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "fc33ff22-cdc5-4fe3-9c6d-6f1e6a23fd1d",
+          "width": 0,
+          "x": 192,
+          "y": -288,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "e366ead1-bfdc-4095-9ae3-fc02c87054d4",
+          "width": 0,
+          "x": 481,
+          "y": -191,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mosquito",
+          "persistentUuid": "a5ee4a05-32c6-4b0e-957c-c4950a24ed91",
+          "width": 0,
+          "x": 1440,
+          "y": 414,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Crab",
+          "persistentUuid": "f1e4d9ab-9b06-4b18-bd41-7dd3ea1cf0db",
+          "width": 0,
+          "x": 1728,
+          "y": 158,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "fbcc85a0-f527-46f0-a200-529122ed4c7c",
+          "width": 0,
+          "x": 3483,
+          "y": 414,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "d9174a36-8a9b-49c0-b9c9-3c9514928955",
+          "width": 0,
+          "x": 3499,
+          "y": 604,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mosquito",
+          "persistentUuid": "e2361977-508f-4f47-973c-d662ba6900a0",
+          "width": 0,
+          "x": 1344,
+          "y": -288,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UpTrigger",
+          "persistentUuid": "b681a237-83eb-4cf2-badd-65e21a5ea9d0",
+          "width": 384,
+          "x": 96,
+          "y": 0,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DownTrigger",
+          "persistentUuid": "34e1ccff-6112-4378-ab69-735b8977967e",
+          "width": 384,
+          "x": 96,
+          "y": -768,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Crab",
+          "persistentUuid": "45934c57-10d9-4514-9c09-29071e72e858",
+          "width": 0,
+          "x": 768,
+          "y": 540,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Crab",
+          "persistentUuid": "23224814-ac96-4bfc-b074-d0920f7bb919",
           "width": 0,
           "x": 2400,
-          "y": 1248,
-          "zOrder": 22,
+          "y": 480,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "6197cf96-8259-4443-a042-aee3a8555e49",
+          "width": 96,
+          "x": 2880,
+          "y": -192,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "7a47ac69-8a71-4f67-a33b-01e5b77093e9",
+          "width": 96,
+          "x": 2208,
+          "y": -192,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51074,12 +53496,29 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Ghost",
-          "persistentUuid": "2a8be29a-4261-47a1-9120-96cc6c0bb215",
+          "name": "Mosquito",
+          "persistentUuid": "c91858dc-0449-4efc-a157-a0f5c5c531eb",
           "width": 0,
-          "x": 4032,
-          "y": 1248,
-          "zOrder": 23,
+          "x": 2400,
+          "y": -192,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "a2be4413-77f8-4c6d-8ee8-73c9c9ad6000",
+          "width": 96,
+          "x": 1248,
+          "y": -960,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51089,13 +53528,568 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI",
-          "name": "TextPause",
-          "persistentUuid": "40d8ddc5-3a3d-4c7e-b6ee-7910b0b60be4",
+          "layer": "",
+          "name": "Mosquito",
+          "persistentUuid": "581bf6d9-1ba8-44d7-b092-1142b54e5ab9",
           "width": 0,
-          "x": 540,
-          "y": 324,
-          "zOrder": 24,
+          "x": 1632,
+          "y": -864,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "11418d8f-5b3b-4113-9a1e-9ea394a4ace9",
+          "width": 96,
+          "x": 2016,
+          "y": -960,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "8751b4cc-22ee-4ee5-8746-7987816f6afe",
+          "width": 96,
+          "x": 3360,
+          "y": -576,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Crab",
+          "persistentUuid": "a6db5bf9-498c-4867-bc72-0bd3d3a74eda",
+          "width": 0,
+          "x": 3168,
+          "y": -480,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "a10e962b-c5bf-48b7-9fdb-2a57f007182c",
+          "width": 96,
+          "x": 2688,
+          "y": -576,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "c2bd273c-8aca-460c-a93c-8bb8427de301",
+          "width": 96,
+          "x": 2208,
+          "y": -1440,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mosquito",
+          "persistentUuid": "0134c481-20c3-47de-b3f5-a8e5aa3e5e53",
+          "width": 0,
+          "x": 1632,
+          "y": -1440,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "d12b2340-24e4-4e1f-9920-9b26ce8bcabe",
+          "width": 96,
+          "x": 1248,
+          "y": -1440,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "91b1e5ba-2475-465f-8dc0-7c86faddc0e7",
+          "width": 0,
+          "x": 394,
+          "y": -1823,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "20f0cc20-fc1d-4c11-bee6-37419e8e23f7",
+          "width": 0,
+          "x": 391,
+          "y": -1503,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "d6e3c2c2-9e91-43c7-a96a-bc2b22c456bc",
+          "width": 96,
+          "x": 1248,
+          "y": -2112,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mosquito",
+          "persistentUuid": "ef6d05d9-2188-40fc-b679-f43cef769cdc",
+          "width": 0,
+          "x": 1536,
+          "y": -2016,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "7a831724-926d-47b6-bca6-3e52928c2456",
+          "width": 96,
+          "x": 2208,
+          "y": -2112,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "148ce1f8-32d7-4d02-b15b-ad0d91b88c80",
+          "width": 96,
+          "x": 3360,
+          "y": -1920,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "6f255ff6-b0e8-4012-ba26-92bfc4246359",
+          "width": 96,
+          "x": 2688,
+          "y": -1920,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Crab",
+          "persistentUuid": "2e118d4e-dad1-4703-8df0-536c53c539e5",
+          "width": 0,
+          "x": 2880,
+          "y": -1824,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "8fe016a7-4284-48d0-9d62-74b68fbfdd83",
+          "width": 0,
+          "x": 2784,
+          "y": -576,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "3c3f8f90-9eb0-43ae-a234-af11b11ef5e1",
+          "width": 0,
+          "x": 2977,
+          "y": -575,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "72cd725b-d24e-4ec7-86c6-caeaaf1d18e2",
+          "width": 0,
+          "x": 3073,
+          "y": -671,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "8a0fd089-f85e-424a-893d-12b1ba0beb52",
+          "width": 0,
+          "x": 3265,
+          "y": -671,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "1a08b64f-61c8-4865-96fb-c621e3ce2cf8",
+          "width": 0,
+          "x": 3361,
+          "y": -575,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenCoin",
+          "persistentUuid": "6e980199-046f-4814-88cd-9d3848da01e9",
+          "width": 0,
+          "x": 2689,
+          "y": -671,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "40fce518-c33b-42f0-98ca-6b0d9ba16fad",
+          "width": 0,
+          "x": 7,
+          "y": -672,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "flipped",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "126fb8a1-bd4d-4caf-b933-6e8ada8ed078",
+          "width": 0,
+          "x": 6,
+          "y": -416,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "flipped",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "2749f631-ebf1-476e-857f-4e655f14aa5c",
+          "width": 0,
+          "x": 0,
+          "y": -1501,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "flipped",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "f98f4500-b8f7-424c-a798-4b8d39db6530",
+          "width": 0,
+          "x": 0,
+          "y": -1755,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "flipped",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fairy",
+          "persistentUuid": "54d99fe9-ed6c-4b15-bbb9-1b759667ab4f",
+          "width": 0,
+          "x": 0,
+          "y": -2014,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "flipped",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "37f078b3-de60-46c2-b9e9-240f0c5a097f",
+          "width": 0,
+          "x": 3027,
+          "y": 864,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Crab",
+          "persistentUuid": "fc13cc02-95c7-4fa4-908c-f9e2af8a9df0",
+          "width": 0,
+          "x": 2208,
+          "y": -1728,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftTrigger",
+          "persistentUuid": "411caf9c-ff75-4555-9217-d8a8e12bd6e0",
+          "width": 96,
+          "x": 2346,
+          "y": -1788,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightTrigger",
+          "persistentUuid": "1d74c149-7a2d-4305-a37e-0d5b02d54b84",
+          "width": 96,
+          "x": 1824,
+          "y": -1781,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatformVertical",
+          "persistentUuid": "0a2d65f4-f9b0-46f1-a22b-5a02b035115b",
+          "width": 0,
+          "x": 3168,
+          "y": 672,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MovingPlatformVertical",
+          "persistentUuid": "cefc101d-283e-4b70-af0f-d70cc61315af",
+          "width": 0,
+          "x": 192,
+          "y": -192,
+          "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51122,7 +54116,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "dcrz5nh-97af31cf-38e5-43fa-9e87-0ed13641c175.png",
+                      "image": "Gumblar--.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -51142,16 +54136,16 @@
                             "y": 0
                           },
                           {
-                            "x": 1912,
+                            "x": 680,
                             "y": 0
                           },
                           {
-                            "x": 1912,
-                            "y": 968
+                            "x": 680,
+                            "y": 383
                           },
                           {
                             "x": 0,
-                            "y": 968
+                            "y": 383
                           }
                         ]
                       ]
@@ -51316,6 +54310,53 @@
             "lineHeight": 0,
             "color": "206;25;25"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapaDeGumblar__",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "NivelGumblar3.json",
+            "tilesetJsonFile": "Tiles-Gumblar-64x66.json",
+            "tilemapAtlasImage": "TilesGumblar64x66.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMapa",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "NivelGumblar3.json",
+            "tilesetJsonFile": "Tiles-Gumblar-64x66.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -51332,6 +54373,12 @@
           },
           {
             "objectName": "debugGhostPosition"
+          },
+          {
+            "objectName": "MapaDeGumblar__"
+          },
+          {
+            "objectName": "ColisionMapa"
           }
         ]
       },
@@ -51364,7 +54411,6 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
-          "folded": true,
           "name": "GamePlay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -51374,6 +54420,7 @@
               "colorG": 255,
               "colorR": 59,
               "creationTime": 0,
+              "folded": true,
               "name": "Juicing",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -51427,6 +54474,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -51679,6 +54727,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -53213,6 +56262,7 @@
               "colorG": 180,
               "colorR": 241,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -53594,733 +56644,6 @@
             "includeConfig": 0
           },
           "target": "GameEvents"
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Ghost",
-                "600",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Active\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"tweenColor\"",
-                "\"250;22;22\"",
-                "\"linear\"",
-                "1",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Ghost",
-                "500",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Active\""
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"\"",
-                "\"info\"",
-                "\"active\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Ghost",
-                "500",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Inactive\""
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"\"",
-                "\"info\"",
-                "\"inactive\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Inactive\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenOpacity\"",
-                "100",
-                "\"linear\"",
-                ".5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Ghost",
-                "Animation",
-                "=",
-                "\"Inactive\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenOpacity\"",
-                "255",
-                "\"easeInOutQuad\"",
-                ".5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\"",
-                "Ghost.X()",
-                "Ghost.Y() + 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"here\"",
-                "\"info\"",
-                "Ghost.State"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Ghost",
-                "500",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Attack\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Active\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"\"",
-                "\"info\"",
-                "\"here\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Ghost",
-                "Animation",
-                "=",
-                "\"Active\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\"",
-                "Ghost.X()",
-                "Ghost.Y() - 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"\"",
-                "\"info\"",
-                "\"tween up\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\"",
-                "Ghost.X()",
-                "Ghost.Y() + 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"\"",
-                "\"info\"",
-                "\"tween down\""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Attack\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\"",
-                "Ghost.X()",
-                "Ghost.Y() + 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\"",
-                "Ghost.X()",
-                "Ghost.Y() - 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\"",
-                "Ghost.X()",
-                "Ghost.Y() + 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Ghost",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\"",
-                "Ghost.X()",
-                "Ghost.Y() - 20",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Ghost",
-                "State",
-                "=",
-                "\"Attack\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Ghost",
-                "Animation",
-                "=",
-                "\"Attack\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::StopTween"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenDown\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::StopTween"
-              },
-              "parameters": [
-                "Ghost",
-                "Tween",
-                "\"TweenUp\"",
-                "yes"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CenterX"
-                  },
-                  "parameters": [
-                    "Ghost",
-                    ">=",
-                    "Player.X()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateLeftKey"
-                  },
-                  "parameters": [
-                    "Ghost",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Ghost",
-                    "Flippable",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CenterX"
-                  },
-                  "parameters": [
-                    "Ghost",
-                    "<",
-                    "Player.X()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateRightKey"
-                  },
-                  "parameters": [
-                    "Ghost",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                  },
-                  "parameters": [
-                    "Ghost",
-                    "Flippable",
-                    "yes"
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "layers": [
