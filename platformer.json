@@ -8563,10 +8563,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
+          "bodyType": "Static",
           "bullet": false,
           "fixedRotation": false,
           "canSleep": true,
@@ -12817,7 +12816,7 @@
         {
           "name": "flipped",
           "type": "boolean",
-          "value": true
+          "value": false
         }
       ],
       "effects": [],
@@ -12854,10 +12853,9 @@
           "RandomizedAngle": 0
         },
         {
-          "isFolded": true,
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
+          "bodyType": "Static",
           "bullet": false,
           "fixedRotation": false,
           "canSleep": true,
@@ -50831,7 +50829,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.14039857806034606,
+        "zoomFactor": 0.1550857455159367,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -50854,7 +50852,7 @@
           "persistentUuid": "7f99f942-cf7c-48a6-b3cd-f0b0903a6cdd",
           "width": 0,
           "x": 2,
-          "y": 419,
+          "y": 480,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -62699,7 +62697,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647059275,
+        "zoomFactor": 0.26364576737708334,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -63915,7 +63913,7 @@
               },
               "parameters": [
                 "",
-                "\"BatallaFinal\"",
+                "\"Level3Gumblar\"",
                 ""
               ]
             }
