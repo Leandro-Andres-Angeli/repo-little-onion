@@ -24875,6 +24875,22 @@
           "name": "pausado",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "checkpointCoords",
+          "type": "structure",
+          "children": [
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "instances": [
@@ -32035,6 +32051,13 @@
           "include": {
             "includeConfig": 0
           },
+          "target": "Checkpoint"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
           "target": "GameEvents"
         },
         {
@@ -38153,7 +38176,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3673257545058955,
+        "zoomFactor": 0.30104611971825684,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -40152,14 +40175,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
           "keepRatio": true,
           "layer": "",
           "name": "Door",
+          "opacity": 0,
           "persistentUuid": "21abfda7-81e7-4510-bee7-9c18369f170d",
-          "width": 0,
-          "x": 7022,
+          "width": 121,
+          "x": 7079,
           "y": -2976,
           "zOrder": 35,
           "numberProperties": [],
@@ -40762,8 +40787,8 @@
           "name": "NaveAlien",
           "persistentUuid": "b8208433-de77-450c-9875-763e5fa1a39c",
           "width": 1152,
-          "x": 6528,
-          "y": -3456,
+          "x": 6548,
+          "y": -3471,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
