@@ -21729,8 +21729,8 @@
           "name": "Player",
           "persistentUuid": "75d52e9f-b3e1-47f4-b2b9-422f21d7f00d",
           "width": 0,
-          "x": 482,
-          "y": -253,
+          "x": 290,
+          "y": -349,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -22012,23 +22012,6 @@
           "x": 2894,
           "y": 96,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 192,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Checkpoint",
-          "persistentUuid": "64aff49a-edd8-4bd7-8b9b-1e042b18f2be",
-          "width": 192,
-          "x": 288,
-          "y": -288,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25420,6 +25403,22 @@
           "name": "pausado",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "checkpointCoords",
+          "type": "structure",
+          "children": [
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "instances": [
