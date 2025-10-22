@@ -4649,6 +4649,38 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/HeartAnimation.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HeartAnimation",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HeartAnimation2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HeartAnimation2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MiniOnionLives.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MiniOnionLives",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4709,6 +4741,22 @@
           "name": "PrevState",
           "type": "string",
           "value": "OnFloor"
+        },
+        {
+          "name": "PlayerInitialPosition",
+          "type": "structure",
+          "children": [
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "effects": [
@@ -10332,6 +10380,11 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
+        {
+          "name": "ElPickupFX",
+          "type": "string",
+          "value": "pickupFXGreen"
+        },
         {
           "name": "PickupFXStart",
           "type": "string",
@@ -20547,6 +20600,474 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Hearth",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "ElPickupFX",
+          "persistentUuid": "ff088a18-e562-47d8-a2aa-a8e642cc2c1d",
+          "type": "string",
+          "value": "pickupFXRed"
+        },
+        {
+          "name": "PickupFXStart",
+          "type": "string",
+          "value": "#f55b5b"
+        },
+        {
+          "name": "PickupFXEnd",
+          "type": "string",
+          "value": "f55b5b"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "HeartAnimation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "HeartAnimation2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 11
+                      },
+                      {
+                        "x": 57,
+                        "y": 11
+                      },
+                      {
+                        "x": 57,
+                        "y": 53
+                      },
+                      {
+                        "x": 7,
+                        "y": 53
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 0,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "flow": 0.3,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 1,
+      "name": "pickupFXRed",
+      "particleAlpha1": 255,
+      "particleAlpha2": 100,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 56,
+      "particleBlue2": 74,
+      "particleColor1": "170;56;56",
+      "particleColor2": "204;74;74",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 56,
+      "particleGreen2": 74,
+      "particleLifeTimeMax": 1.1,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 170,
+      "particleRed2": 204,
+      "particleSize1": 300,
+      "particleSize2": 70,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 20,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tank": 1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 0,
+      "emitterForceMax": 1,
+      "emitterForceMin": 0,
+      "flow": 1,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 1,
+      "name": "HearthEmitter",
+      "particleAlpha1": 204,
+      "particleAlpha2": 150,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 26,
+      "particleBlue2": 23,
+      "particleColor1": "248;26;26",
+      "particleColor2": "255;23;23",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 26,
+      "particleGreen2": 23,
+      "particleLifeTimeMax": 0.7,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 248,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 150,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": 20,
+      "textureParticleName": "NewParticlesEmitter35",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 1,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MiniOnion",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "ElPickupFX",
+          "persistentUuid": "2c12e094-d200-4aa0-b791-f94029d4f1fb",
+          "type": "string",
+          "value": "pickupFXWhite"
+        },
+        {
+          "name": "PickupFXStart",
+          "persistentUuid": "13e0d768-4a61-41e5-978e-cbc5294d9463",
+          "type": "string",
+          "value": "CFCFCF"
+        },
+        {
+          "name": "PickupFXEnd",
+          "persistentUuid": "14e64b72-e143-4076-a38c-55bd17be5036",
+          "type": "string",
+          "value": "A7A7A7"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MiniOnionLives",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MiniOnionLives",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 45,
+                        "y": 3
+                      },
+                      {
+                        "x": 45,
+                        "y": 64
+                      },
+                      {
+                        "x": 10,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MiniOnionAnimation",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle125",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle126",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle127",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle128",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 18
+                      },
+                      {
+                        "x": 90,
+                        "y": 90
+                      },
+                      {
+                        "x": 6,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 0,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "flow": 0.3,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 1,
+      "name": "pickupFXWhite",
+      "particleAlpha1": 255,
+      "particleAlpha2": 100,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 167,
+      "particleBlue2": 207,
+      "particleColor1": "167;167;167",
+      "particleColor2": "207;207;207",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 167,
+      "particleGreen2": 207,
+      "particleLifeTimeMax": 1.1,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 167,
+      "particleRed2": 207,
+      "particleSize1": 300,
+      "particleSize2": 70,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 20,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tank": 1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -20622,10 +21143,16 @@
         "folderName": "Pickups",
         "children": [
           {
+            "objectName": "Hearth"
+          },
+          {
             "objectName": "Coin"
           },
           {
             "objectName": "GreenCoin"
+          },
+          {
+            "objectName": "MiniOnion"
           }
         ]
       },
@@ -20748,7 +21275,13 @@
             "objectName": "GreenCoinEmitter"
           },
           {
+            "objectName": "HearthEmitter"
+          },
+          {
             "objectName": "GoldAnimation"
+          },
+          {
+            "objectName": "MiniOnionAnimation"
           },
           {
             "objectName": "HitObstacleAnimation"
@@ -20767,6 +21300,12 @@
           },
           {
             "objectName": "pickupFXGreen"
+          },
+          {
+            "objectName": "pickupFXRed"
+          },
+          {
+            "objectName": "pickupFXWhite"
           },
           {
             "objectName": "PlayerWalkingTrail"
@@ -21019,6 +21558,12 @@
         },
         {
           "name": "Coin"
+        },
+        {
+          "name": "Hearth"
+        },
+        {
+          "name": "MiniOnion"
         }
       ]
     }
@@ -24875,22 +25420,6 @@
           "name": "pausado",
           "type": "number",
           "value": 0
-        },
-        {
-          "name": "checkpointCoords",
-          "type": "structure",
-          "children": [
-            {
-              "name": "x",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "y",
-              "type": "number",
-              "value": 0
-            }
-          ]
         }
       ],
       "instances": [
@@ -33717,7 +34246,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.14039857806034353,
+        "zoomFactor": 0.3437520241612398,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -35415,6 +35944,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "1f6daaed-18ff-4788-9b89-f7adda3855db",
+          "width": 0,
+          "x": 4448,
+          "y": -1344,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "0df6178e-9548-476c-85d8-401987d887c8",
+          "width": 0,
+          "x": 2816,
+          "y": 96,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "ea730875-8d70-4b67-8002-2a9007a52c10",
+          "width": 0,
+          "x": 3296,
+          "y": -864,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MiniOnion",
+          "persistentUuid": "c4bbf954-d255-4415-9dd3-c78def112536",
+          "width": 0,
+          "x": 2112,
+          "y": 288,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "466ab8b8-45cb-402e-9091-b4d107fedda6",
+          "width": 0,
+          "x": 96,
+          "y": -1248,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35620,6 +36229,31 @@
                 "",
                 "\"MenuResultado\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerGlobal.CurrentHealth",
+                "=",
+                "5"
               ]
             }
           ]
@@ -38176,7 +38810,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.30104611971825684,
+        "zoomFactor": 0.3111974942445316,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -40838,6 +41472,102 @@
           "x": 8832,
           "y": -722,
           "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "9b9f9f5b-cbce-4ff3-bf54-b63d615e2df7",
+          "width": 0,
+          "x": 5760,
+          "y": -384,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "177c5202-8bee-4e65-981b-1fb0e5da24e2",
+          "width": 0,
+          "x": 2496,
+          "y": 384,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "e96e8b5d-70e9-4f6e-b2e3-0a2eaf396047",
+          "width": 0,
+          "x": 10176,
+          "y": -672,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "24be85da-8fce-4868-9f7b-7ecd3f60ff41",
+          "width": 0,
+          "x": 8256,
+          "y": -2304,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MiniOnion",
+          "persistentUuid": "4b82846e-e5fe-463a-ad8e-eebc8e62b0c8",
+          "width": 0,
+          "x": 8544,
+          "y": -1120,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MiniOnion",
+          "persistentUuid": "e7ecda0e-833b-4382-98d2-16c9cc04bb4b",
+          "width": 0,
+          "x": 6560,
+          "y": -2592,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43580,7 +44310,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.1343715797161391,
+        "zoomFactor": 0.39251611754883775,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -48169,6 +48899,118 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "3a4aa87c-45e7-4c7a-aefb-cbf577a3086c",
+          "width": 0,
+          "x": 1056,
+          "y": 384,
+          "zOrder": 153,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "75b66be2-e576-47de-b08c-09f0fbed5a42",
+          "width": 0,
+          "x": 6048,
+          "y": 192,
+          "zOrder": 154,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MiniOnion",
+          "persistentUuid": "3842e57b-0e60-4f43-9f91-1c0c2fe60e72",
+          "width": 0,
+          "x": 7008,
+          "y": -96,
+          "zOrder": 155,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "d831d9b5-ea07-4505-8026-e9fd00752df4",
+          "width": 0,
+          "x": 8736,
+          "y": -1728,
+          "zOrder": 156,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "a1a170d5-e868-4d30-aa27-2429304801ae",
+          "width": 0,
+          "x": 13344,
+          "y": -2880,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MiniOnion",
+          "persistentUuid": "e9a434a4-1cc9-4f37-a934-c547727517f4",
+          "width": 0,
+          "x": 8864,
+          "y": -2592,
+          "zOrder": 158,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hearth",
+          "persistentUuid": "cf4589e1-6022-4171-8684-a119e88e5e11",
+          "width": 0,
+          "x": 8832,
+          "y": 192,
+          "zOrder": 159,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -50610,7 +51452,7 @@
               },
               "parameters": [
                 "",
-                "\"Level2\"",
+                "\"MenuResultado\"",
                 ""
               ]
             }
@@ -65162,7 +66004,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -65304,6 +66145,43 @@
                         "Actions[1]",
                         "=",
                         "\"\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlayerInitialPosition.x",
+                        "=",
+                        "Player.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlayerInitialPosition.y",
+                        "=",
+                        "Player.CenterY()"
                       ]
                     }
                   ]
@@ -65629,11 +66507,6 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                },
-                {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Fairy",
                   "conditions": [
@@ -65690,11 +66563,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -65991,7 +66859,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Score",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -66057,6 +66924,7 @@
                       ]
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -66144,7 +67012,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Coin",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -66195,7 +67062,6 @@
                   "colorG": 32,
                   "colorR": 152,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUp Emerald",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -66253,11 +67119,236 @@
                   "parameters": []
                 },
                 {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "name": "PickUp Hearth",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Hearth",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "HearthEmitter",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "PlayerGlobal.CurrentHealth",
+                                ">=",
+                                "PlayerGlobal.MaxHealth"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Score",
+                                "+",
+                                "10"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "PlayerGlobal.CurrentHealth",
+                                "<",
+                                "PlayerGlobal.MaxHealth"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PlayerGlobal.CurrentHealth",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "CurrentHealth",
+                                "Resizable",
+                                "=",
+                                "64 * ( PlayerGlobal.CurrentHealth )"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "name": "PickUp Live",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "MiniOnion",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "MiniOnionAnimation",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentLives",
+                                ">=",
+                                "MaxLives"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Score",
+                                "+",
+                                "50"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentLives",
+                                "<",
+                                "MaxLives"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentLives",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "LifeCounter",
+                                "Text",
+                                "=",
+                                "\"x\"+CurrentLives"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
                   "colorB": 253,
                   "colorG": 6,
                   "colorR": 199,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PickUpItems",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -68105,6 +69196,38 @@
                                 "Text",
                                 "=",
                                 "\"x\"+CurrentLives"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "ExtendedVariables::SceneVariableExist"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"checkpointCoords\"",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreXY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.PlayerInitialPosition.x",
+                                    "=",
+                                    "Player.PlayerInitialPosition.y"
+                                  ]
+                                }
                               ]
                             }
                           ]
