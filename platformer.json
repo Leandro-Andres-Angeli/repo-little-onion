@@ -4741,6 +4741,22 @@
           "name": "PrevState",
           "type": "string",
           "value": "OnFloor"
+        },
+        {
+          "name": "PlayerInitialPosition",
+          "type": "structure",
+          "children": [
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "effects": [
@@ -36211,6 +36227,31 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerGlobal.CurrentHealth",
+                "=",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
           "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -66100,6 +66141,43 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlayerInitialPosition.x",
+                        "=",
+                        "Player.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlayerInitialPosition.y",
+                        "=",
+                        "Player.CenterY()"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Enemies",
                   "conditions": [
@@ -66420,11 +66498,6 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                },
-                {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Fairy",
                   "conditions": [
@@ -66481,11 +66554,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -69119,6 +69187,38 @@
                                 "Text",
                                 "=",
                                 "\"x\"+CurrentLives"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "ExtendedVariables::SceneVariableExist"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"checkpointCoords\"",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreXY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.PlayerInitialPosition.x",
+                                    "=",
+                                    "Player.PlayerInitialPosition.y"
+                                  ]
+                                }
                               ]
                             }
                           ]
