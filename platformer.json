@@ -48349,7 +48349,6 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
-          "folded": true,
           "name": "GamePlay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48412,6 +48411,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Beginning of  the Scene",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -48664,6 +48664,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -50198,6 +50199,7 @@
               "colorG": 180,
               "colorR": 241,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -50617,7 +50619,7 @@
               },
               "parameters": [
                 "",
-                "\"Level2\"",
+                "\"MenuResultado\"",
                 ""
               ]
             }
@@ -50829,7 +50831,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3553434558817127,
+        "zoomFactor": 0.14039857806034606,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -54093,6 +54095,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Nave",
+          "persistentUuid": "21f68d06-6600-4701-8c4b-05144d54e3af",
+          "width": 672,
+          "x": 2880,
+          "y": -2208,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Door",
+          "persistentUuid": "d13f9e1b-92e7-4764-8a0a-3c791344d6bb",
+          "width": 0,
+          "x": 3168,
+          "y": -1824,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -54357,6 +54392,66 @@
             "outlineOpacity": 128,
             "outlineSize": 1
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Nave",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "menu_assets\\nave1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 37
+                          },
+                          {
+                            "x": 222,
+                            "y": 37
+                          },
+                          {
+                            "x": 222,
+                            "y": 220
+                          },
+                          {
+                            "x": 34,
+                            "y": 220
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -54379,6 +54474,9 @@
           },
           {
             "objectName": "ColisionMapa"
+          },
+          {
+            "objectName": "Nave"
           }
         ]
       },
@@ -56644,6 +56742,40 @@
             "includeConfig": 0
           },
           "target": "GameEvents"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"BatallaFinal\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -57216,7 +57348,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6897782140104598,
+        "zoomFactor": 0.35534345588170363,
         "windowMask": false,
         "selectedLayer": ""
       },
