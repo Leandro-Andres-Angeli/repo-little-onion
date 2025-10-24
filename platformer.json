@@ -21686,7 +21686,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5653158055126474,
+        "zoomFactor": 1.1343715797161278,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -22413,7 +22413,7 @@
           "name": "TextPause",
           "persistentUuid": "84244ed0-e40f-4334-a679-4b155be3bce1",
           "width": 0,
-          "x": 289,
+          "x": 225,
           "y": -92,
           "zOrder": 99999,
           "numberProperties": [],
@@ -22430,7 +22430,7 @@
           "persistentUuid": "4a760d92-36f6-495c-96d9-042827418b0e",
           "width": 0,
           "x": 414,
-          "y": -256,
+          "y": -236,
           "zOrder": 100000,
           "numberProperties": [],
           "stringProperties": [],
@@ -73359,16 +73359,6 @@
                     "Opacity",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCenterX"
-                  },
-                  "parameters": [
-                    "TextPause",
-                    "=",
-                    "ScreenWidth() * .5"
                   ]
                 }
               ]
