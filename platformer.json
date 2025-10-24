@@ -26036,23 +26036,6 @@
           "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "Door",
-          "persistentUuid": "6d2aafee-3c31-4b43-accf-3da382344e80",
-          "width": 96,
-          "x": -288,
-          "y": 576,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
           "name": "PlatformBlock",
           "persistentUuid": "12b1e059-e666-4e29-93a8-72de4b496a3e",
           "width": 288,
@@ -33198,7 +33181,7 @@
                     "batalla_final\\batalla_Gumblar.mp3",
                     "1",
                     "yes",
-                    "50",
+                    "25",
                     "1"
                   ]
                 },
@@ -48178,10 +48161,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -50471,7 +50454,7 @@
               },
               "parameters": [
                 "",
-                "\"MenuResultadoNave\"",
+                "\"BatallaFinal\"",
                 ""
               ]
             }
@@ -62227,7 +62210,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6897782140104598,
+        "zoomFactor": 0.4057518905943885,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -68794,7 +68777,7 @@
               },
               "parameters": [
                 "",
-                "\"BatallaFinal\"",
+                "\"Level4\"",
                 ""
               ]
             }
