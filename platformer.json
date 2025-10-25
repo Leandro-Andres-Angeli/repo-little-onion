@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 244,
+    "build": 243,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -25459,7 +25459,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.32169117647060397,
+        "zoomFactor": 0.22336005893812447,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -25484,6 +25484,22 @@
           "name": "pausado",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "checkpointCoords",
+          "type": "structure",
+          "children": [
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "instances": [
@@ -32634,6 +32650,13 @@
           "include": {
             "includeConfig": 0
           },
+          "target": "Checkpoint"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
           "target": "Pause"
         },
         {
@@ -34286,7 +34309,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3437520241612398,
+        "zoomFactor": 0.3216911764705965,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -44348,7 +44371,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2386775827025882,
+        "zoomFactor": 0.343752024161246,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -50796,7 +50819,7 @@
         "gridColor": 6710857,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.11131182576837438,
+        "zoomFactor": 0.37971210019480844,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -55670,7 +55693,6 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
-          "folded": true,
           "name": "GamePlay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -74052,7 +74074,6 @@
               "colorG": 17,
               "colorR": 143,
               "creationTime": 0,
-              "folded": true,
               "name": "Juicing",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -74094,6 +74115,42 @@
                         "",
                         "GoldAnimation",
                         "Coin"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "MiniOnion",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "MiniOnionAnimation",
+                        "MiniOnion.CenterX()",
+                        "MiniOnion.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "MiniOnionAnimation",
+                        "MiniOnion"
                       ]
                     }
                   ]
@@ -74805,7 +74862,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -75408,7 +75464,7 @@
                           },
                           "parameters": [
                             "Player",
-                            "MiniOnion",
+                            "MiniOnionAnimation",
                             "",
                             "",
                             ""
@@ -81189,7 +81245,6 @@
               "colorG": 190,
               "colorR": 253,
               "creationTime": 0,
-              "folded": true,
               "name": "GranTomate",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
